@@ -1,0 +1,151 @@
+{
+  "prerequisites": {
+    "whiteboarding": [
+      "ambient sensing"
+    ],
+    "discussion moderation": [
+      "acoustics"
+    ],
+    "screen sharing": [
+      "peer grouping"
+    ],
+    "assignment collection": [
+      "acoustics"
+    ],
+    "gradebook synchronisation": [
+      "note synchronisation"
+    ],
+    "lecture recording": [
+      "study reminder"
+    ],
+    "plagiarism checking": [
+      "attendance tracking"
+    ],
+    "broadcasting": [
+      "certificate issuance"
+    ],
+    "ambient sensing": [
+      "acoustics"
+    ],
+    "concept mapping": [
+      "plagiarism checking"
+    ],
+    "study reminder": [
+      "attendance tracking"
+    ],
+    "note synchronisation": [
+      "accessibility adaptation"
+    ],
+    "flashcard generation": [
+      "acoustics"
+    ],
+    "attendance tracking": [
+      "acoustics"
+    ],
+    "language translation": [
+      "note synchronisation"
+    ],
+    "exam proctoring": [
+      "acoustics"
+    ],
+    "quizzing": [
+      "study reminder"
+    ],
+    "ambient regulation": [
+      "broadcasting"
+    ],
+    "revision scheduling": [
+      "study reminder"
+    ],
+    "polling": [
+      "ambient regulation"
+    ],
+    "acoustics": [
+      "peer grouping"
+    ],
+    "certificate issuance": [
+      "study reminder"
+    ],
+    "peer grouping": [
+      "note synchronisation"
+    ],
+    "live captioning": [
+      "broadcasting"
+    ]
+  },
+  "alternatives": {},
+  "predicates": {
+    "whiteboarding": [
+      "ambient sensing_known"
+    ],
+    "discussion moderation": [
+      "acoustics_known"
+    ],
+    "screen sharing": [
+      "peer grouping_known"
+    ],
+    "assignment collection": [
+      "acoustics_known"
+    ],
+    "gradebook synchronisation": [
+      "note synchronisation_known"
+    ],
+    "lecture recording": [
+      "study reminder_known"
+    ],
+    "plagiarism checking": [
+      "attendance tracking_known"
+    ],
+    "broadcasting": [
+      "certificate issuance_known"
+    ],
+    "ambient sensing": [
+      "acoustics_known"
+    ],
+    "concept mapping": [
+      "plagiarism checking_known"
+    ],
+    "study reminder": [
+      "attendance tracking_known"
+    ],
+    "note synchronisation": [
+      "accessibility adaptation_known"
+    ],
+    "flashcard generation": [
+      "acoustics_known"
+    ],
+    "attendance tracking": [
+      "acoustics_known"
+    ],
+    "language translation": [
+      "note synchronisation_known"
+    ],
+    "exam proctoring": [
+      "acoustics_known"
+    ],
+    "quizzing": [
+      "study reminder_known"
+    ],
+    "ambient regulation": [
+      "broadcasting_known"
+    ],
+    "revision scheduling": [
+      "study reminder_known"
+    ],
+    "polling": [
+      "ambient regulation_known"
+    ],
+    "acoustics": [
+      "peer grouping_known"
+    ],
+    "certificate issuance": [
+      "study reminder_known"
+    ],
+    "peer grouping": [
+      "note synchronisation_known"
+    ],
+    "live captioning": [
+      "broadcasting_known"
+    ]
+  }
+}

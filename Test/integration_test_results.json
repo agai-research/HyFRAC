@@ -1,0 +1,233 @@
+{
+  "HyFRAC": {
+    "status": "delivered",
+    "message": null,
+    "confidence": 0.7591022112083816,
+    "services": [
+      "LS",
+      "QG"
+    ],
+    "fragments_used": [
+      "phi_e3"
+    ],
+    "quality": {
+      "cost": 30,
+      "duration": 45,
+      "reliability": 0.874,
+      "complexity": 2
+    },
+    "explanation": "The delivered application uses 2 service(s): LS, QG.\n- plan: drafted an application with 0 service(s)\n- plan: drafted an application with 2 service(s)\n- critique: no violation found\n- select: selected the Pareto-optimal application, confidence=0.76",
+    "relaxation_rounds": 0,
+    "flagged_hyperedges": []
+  },
+  "HyFRAC-BG": {
+    "status": "delivered",
+    "message": null,
+    "confidence": 0.7591022112083816,
+    "services": [
+      "LS",
+      "QG"
+    ],
+    "fragments_used": [
+      "phi_e3"
+    ],
+    "quality": {
+      "cost": 30,
+      "duration": 45,
+      "reliability": 0.874,
+      "complexity": 2
+    },
+    "explanation": "The delivered application uses 2 service(s): LS, QG.\n- plan: drafted an application with 2 service(s)\n- critique: no violation found\n- select: selected the Pareto-optimal application, confidence=0.76",
+    "relaxation_rounds": 0
+  },
+  "HyFRAC-NS": {
+    "status": "delivered",
+    "message": null,
+    "confidence": 0.7591022112083816,
+    "services": [
+      "LS",
+      "QG"
+    ],
+    "fragments_used": [
+      "phi_e3"
+    ],
+    "quality": {
+      "cost": 30,
+      "duration": 45,
+      "reliability": 0.874,
+      "complexity": 2
+    },
+    "explanation": "The delivered application uses 2 service(s): LS, QG.\n- plan: drafted an application with 2 service(s)\n- critique: no violation found\n- select: selected the Pareto-optimal application, confidence=0.76",
+    "relaxation_rounds": 0
+  },
+  "HyFRAC-NF": {
+    "status": "delivered",
+    "message": null,
+    "confidence": 0.7591019509396895,
+    "services": [
+      "LS",
+      "QG"
+    ],
+    "fragments_used": [
+      "svc_LS",
+      "svc_QG"
+    ],
+    "quality": {
+      "cost": 30,
+      "duration": 45,
+      "reliability": 0.874,
+      "complexity": 2
+    },
+    "explanation": "The delivered application uses 2 service(s): LS, QG.\n- plan: drafted an application with 2 service(s)\n- critique: no violation found\n- select: selected the Pareto-optimal application, confidence=0.76",
+    "relaxation_rounds": 0
+  },
+  "HyFRAC-WfG": {
+    "status": "delivered",
+    "message": null,
+    "confidence": 0.7570726856857761,
+    "services": [
+      "LS",
+      "QG"
+    ],
+    "fragments_used": [
+      "phi_e3"
+    ],
+    "quality": {
+      "cost": 30,
+      "duration": 45,
+      "reliability": 0.874,
+      "complexity": 2
+    },
+    "explanation": "The delivered application uses 2 service(s): LS, QG.\n- plan: drafted an application with 2 service(s)\n- critique: no violation found\n- select: selected the Pareto-optimal application, confidence=0.76",
+    "relaxation_rounds": 0
+  },
+  "LLM4Workflow": {
+    "status": "delivered",
+    "services": [
+      "PC",
+      "QG2"
+    ],
+    "tasks": [
+      "broadcasting",
+      "quizzing"
+    ],
+    "dag_edges": [
+      [
+        "PC",
+        "QG2"
+      ]
+    ],
+    "quality": {
+      "cost": 24,
+      "duration": 34,
+      "reliability": 0.81,
+      "complexity": 1
+    },
+    "confidence": 0.81
+  },
+  "DSC-LLM": {
+    "status": "delivered",
+    "services": [
+      "PC",
+      "QG2"
+    ],
+    "pipeline": [
+      {
+        "service": "PC",
+        "capability": "broadcasting",
+        "parameters": {
+          "projector_id": "projector"
+        }
+      },
+      {
+        "service": "QG2",
+        "capability": "quizzing",
+        "parameters": {
+          "tablet_id": "tablet"
+        }
+      }
+    ],
+    "quality": {
+      "cost": 24,
+      "duration": 34,
+      "reliability": 0.81,
+      "complexity": 1
+    },
+    "confidence": 0.81,
+    "selector_recall_pool_size": 4
+  },
+  "Trust-MPGNN": {
+    "status": "delivered",
+    "services": [
+      "LS",
+      "QG"
+    ],
+    "trust_scores": {
+      "LS": 0.5912562701408728,
+      "QG": 0.7856363331409371
+    },
+    "quality": {
+      "cost": 30,
+      "duration": 45,
+      "reliability": 0.874,
+      "complexity": 2
+    },
+    "confidence": 0.6884463016409049
+  },
+  "SWDG": {
+    "status": "delivered",
+    "process_description": "First, the system handles broadcasting using the available resources. If the broadcasting step requires more than one attempt, it must be repeated. Finally, the system handles quizzing using the available resources. If the quizzing step requires more than one attempt, it must be repeated.",
+    "nodes": [
+      {
+        "id": "a0",
+        "kind": "activity",
+        "text": "First, the system handles broadcasting using the available resources."
+      },
+      {
+        "id": "c1",
+        "kind": "condition",
+        "text": "If the broadcasting step requires more than one attempt, it must be repeated."
+      },
+      {
+        "id": "a2",
+        "kind": "activity",
+        "text": "Finally, the system handles quizzing using the available resources."
+      },
+      {
+        "id": "c3",
+        "kind": "condition",
+        "text": "If the quizzing step requires more than one attempt, it must be repeated."
+      }
+    ],
+    "initial_edges": [
+      [
+        "a0",
+        "c1"
+      ],
+      [
+        "c1",
+        "a2"
+      ],
+      [
+        "a2",
+        "c3"
+      ]
+    ],
+    "completed_edges": [
+      [
+        "a0",
+        "c1"
+      ],
+      [
+        "c1",
+        "a2"
+      ],
+      [
+        "a2",
+        "c3"
+      ]
+    ],
+    "num_predicted_edges_added": 0,
+    "confidence": 0.5001120287567716
+  }
+}

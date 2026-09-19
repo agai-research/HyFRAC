@@ -1,0 +1,13 @@
+{
+  "services": 1000,
+  "resources": 500,
+  "hyperedges_by_type": {
+    "res-share": 1180,
+    "prereq": 390,
+    "co-exec": 640,
+    "cap-cover": 240
+  },
+  "hyperedges_total": 2450,
+  "fragments": 2450,
+  "avg_fragment_size": 2.71
+}

@@ -1,0 +1,33 @@
+{
+  "services": [
+    {"id": "LS",  "capability": "broadcasting",       "pre": [], "post": ["displayed"],
+     "resources": ["projector", "wifi"], "cost": 20, "duration": 30, "reliability": 0.95, "complexity": 2, "modality": "any"},
+    {"id": "PC",  "capability": "broadcasting",       "pre": [], "post": ["displayed"],
+     "resources": ["projector"], "cost": 15, "duration": 20, "reliability": 0.90, "complexity": 1, "modality": "any"},
+    {"id": "QG",  "capability": "quizzing",           "pre": [], "post": ["assessed"],
+     "resources": ["tablet", "wifi"], "cost": 10, "duration": 15, "reliability": 0.92, "complexity": 1, "modality": "any"},
+    {"id": "QG2", "capability": "quizzing",           "pre": [], "post": ["assessed"],
+     "resources": ["tablet"], "cost": 9, "duration": 14, "reliability": 0.90, "complexity": 1, "modality": "any"},
+    {"id": "CB",  "capability": "whiteboarding",      "pre": [], "post": ["annotated"],
+     "resources": ["tablet"], "cost": 12, "duration": 25, "reliability": 0.88, "complexity": 2, "modality": "any"},
+    {"id": "RM",  "capability": "ambient sensing",    "pre": [], "post": ["occupancy_known"],
+     "resources": ["sensor_hub"], "cost": 5, "duration": 5, "reliability": 0.97, "complexity": 1, "modality": "any"},
+    {"id": "CC",  "capability": "ambient sensing",    "pre": [], "post": ["temperature_known"],
+     "resources": ["sensor_hub"], "cost": 8, "duration": 10, "reliability": 0.93, "complexity": 1, "modality": "any"},
+    {"id": "SL",  "capability": "ambient regulation", "pre": ["occupancy_known", "temperature_known"], "post": ["regulated"],
+     "resources": ["light_controller"], "cost": 6, "duration": 5, "reliability": 0.90, "complexity": 1, "modality": "any"},
+    {"id": "NG",  "capability": "acoustics",          "pre": [], "post": ["quiet_verified"],
+     "resources": ["microphone", "tablet"], "cost": 7, "duration": 10, "reliability": 0.85, "complexity": 2, "modality": "any"}
+  ],
+  "resources": ["projector", "tablet", "wifi", "sensor_hub", "light_controller", "microphone"],
+  "concepts": ["broadcasting", "quizzing", "whiteboarding", "ambient sensing", "ambient regulation", "acoustics"],
+  "hyperedges": [
+    {"id": "e1", "members": ["LS", "PC"],          "edge_type": "co-exec",   "confidence": 1.00, "tail": [], "head": []},
+    {"id": "e2", "members": ["QG", "CB"],          "edge_type": "co-exec",   "confidence": 0.92, "tail": [], "head": []},
+    {"id": "e3", "members": ["LS", "QG"],          "edge_type": "res-share", "confidence": 1.00, "tail": [], "head": []},
+    {"id": "e4", "members": ["RM", "CC", "SL"],    "edge_type": "prereq",    "confidence": 0.95, "tail": ["RM", "CC"], "head": ["SL"]},
+    {"id": "e5", "members": ["RM", "CC"],          "edge_type": "co-exec",   "confidence": 0.90, "tail": [], "head": []},
+    {"id": "e6", "members": ["NG", "QG"],          "edge_type": "co-exec",   "confidence": 0.86, "tail": [], "head": []},
+    {"id": "e7", "members": ["QG", "QG2"],         "edge_type": "cap-cover", "confidence": 0.80, "tail": [], "head": []}
+  ]
+}

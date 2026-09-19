@@ -1,0 +1,4216 @@
+[
+  {
+    "profile_id": "P0000",
+    "objectives": [
+      "sleep tracking",
+      "access control",
+      "vehicle sharing"
+    ],
+    "level": 3,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.03222472442217681,
+      "duration": 0.5279394143260375,
+      "reliability": 0.0015218309191174307,
+      "complexity": 0.43831403033266836
+    },
+    "budget": {
+      "cost": 249.26735718801154,
+      "duration": 100.19024292655811,
+      "complexity": 4
+    },
+    "request": "I need help with sleep tracking and access control and vehicle sharing for a level 3 healthcare session."
+  },
+  {
+    "profile_id": "P0001",
+    "objectives": [
+      "exam proctoring",
+      "concept mapping",
+      "accessibility adaptation"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.31473136152717024,
+      "duration": 0.037093161127671324,
+      "reliability": 0.5252632548201511,
+      "complexity": 0.12291222252500739
+    },
+    "budget": {
+      "cost": 90.05300846446113,
+      "duration": 121.88094064095462,
+      "complexity": 4
+    },
+    "request": "Please set up exam proctoring and concept mapping and accessibility adaptation suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0002",
+    "objectives": [
+      "polling"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.2621408939017087,
+      "duration": 0.1655898488644436,
+      "reliability": 0.47047072202725476,
+      "complexity": 0.10179853520659289
+    },
+    "budget": {
+      "cost": 178.52941164987845,
+      "duration": 104.53101530902563,
+      "complexity": 3
+    },
+    "request": "I need help with polling for a level 2 education session."
+  },
+  {
+    "profile_id": "P0003",
+    "objectives": [
+      "sentiment analysis",
+      "live captioning"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.3321226783939181,
+      "duration": 0.20784476450429412,
+      "reliability": 0.4573144850653689,
+      "complexity": 0.0027180720364188963
+    },
+    "budget": {
+      "cost": 257.5119324504364,
+      "duration": 53.16916215921598,
+      "complexity": 2
+    },
+    "request": "I need help with sentiment analysis and live captioning for a level 1 living session."
+  },
+  {
+    "profile_id": "P0004",
+    "objectives": [
+      "language translation",
+      "anomaly detection"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.4785240705552716,
+      "duration": 0.2203996416589176,
+      "reliability": 0.2828014895571773,
+      "complexity": 0.01827479822863347
+    },
+    "budget": {
+      "cost": 185.2859553441222,
+      "duration": 106.1658354450525,
+      "complexity": 2
+    },
+    "request": "Can you arrange language translation and anomaly detection? This is for a education context, level 1."
+  },
+  {
+    "profile_id": "P0005",
+    "objectives": [
+      "parking detection",
+      "air quality sensing"
+    ],
+    "level": 2,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.23714589993314716,
+      "duration": 0.6597418311837719,
+      "reliability": 0.042443346146251774,
+      "complexity": 0.06066892273682917
+    },
+    "budget": {
+      "cost": 254.0845259547689,
+      "duration": 86.91692573254687,
+      "complexity": 3
+    },
+    "request": "Can you arrange parking detection and air quality sensing? This is for a mobility context, level 2."
+  },
+  {
+    "profile_id": "P0006",
+    "objectives": [
+      "anomaly detection",
+      "occupancy detection"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.1759141201007379,
+      "duration": 0.21588976980169364,
+      "reliability": 0.033371521278049245,
+      "complexity": 0.5748245888195191
+    },
+    "budget": {
+      "cost": 109.89099045738084,
+      "duration": 90.37474471559725,
+      "complexity": 3
+    },
+    "request": "Can you arrange anomaly detection and occupancy detection? This is for a living context, level 2."
+  },
+  {
+    "profile_id": "P0007",
+    "objectives": [
+      "leak detection",
+      "ambient regulation",
+      "anomaly detection"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.13686489685580353,
+      "duration": 0.32809944011440156,
+      "reliability": 0.37863583025744113,
+      "complexity": 0.15639983277235384
+    },
+    "budget": {
+      "cost": 261.26858021863825,
+      "duration": 171.74222567174692,
+      "complexity": 2
+    },
+    "request": "Can you arrange leak detection and ambient regulation and anomaly detection? This is for a living context, level 1."
+  },
+  {
+    "profile_id": "P0008",
+    "objectives": [
+      "access control",
+      "anomaly detection"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.08048336918704216,
+      "duration": 0.6723611459023734,
+      "reliability": 0.23901461053897496,
+      "complexity": 0.008140874371609595
+    },
+    "budget": {
+      "cost": 271.01422354911745,
+      "duration": 126.23575578337211,
+      "complexity": 2
+    },
+    "request": "I need help with access control and anomaly detection for a level 1 living session."
+  },
+  {
+    "profile_id": "P0009",
+    "objectives": [
+      "acoustics",
+      "remote diagnosis"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.06881956905246786,
+      "duration": 0.0030729976283231254,
+      "reliability": 0.8536919891292875,
+      "complexity": 0.07441544418992149
+    },
+    "budget": {
+      "cost": 186.90879980343382,
+      "duration": 78.32449646703377,
+      "complexity": 4
+    },
+    "request": "Please set up acoustics and remote diagnosis suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0010",
+    "objectives": [
+      "polling",
+      "charging-station locating"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.020310636503065478,
+      "duration": 0.04113439553420058,
+      "reliability": 0.3521826668479738,
+      "complexity": 0.58637230111476
+    },
+    "budget": {
+      "cost": 157.05506159737033,
+      "duration": 108.56101618657205,
+      "complexity": 4
+    },
+    "request": "Please set up polling and charging-station locating suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0011",
+    "objectives": [
+      "parking detection",
+      "backup scheduling"
+    ],
+    "level": 1,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.45356782733008694,
+      "duration": 0.08423263041491999,
+      "reliability": 0.17886745039400823,
+      "complexity": 0.2833320918609849
+    },
+    "budget": {
+      "cost": 277.2948284976376,
+      "duration": 52.65934171152232,
+      "complexity": 2
+    },
+    "request": "Can you arrange parking detection and backup scheduling? This is for a mobility context, level 1."
+  },
+  {
+    "profile_id": "P0012",
+    "objectives": [
+      "study reminder",
+      "firmware updating"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.49006921509137397,
+      "duration": 0.1086385808930179,
+      "reliability": 0.2591296302124218,
+      "complexity": 0.1421625738031865
+    },
+    "budget": {
+      "cost": 53.567797421152655,
+      "duration": 124.2692921799436,
+      "complexity": 3
+    },
+    "request": "We would like study reminder and firmware updating configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0013",
+    "objectives": [
+      "file storage",
+      "geofencing"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.1457356400290904,
+      "duration": 0.16496055029290174,
+      "reliability": 0.5052589822842183,
+      "complexity": 0.18404482739378944
+    },
+    "budget": {
+      "cost": 136.5153597781196,
+      "duration": 172.2186092116222,
+      "complexity": 2
+    },
+    "request": "Can you arrange file storage and geofencing? This is for a living context, level 1."
+  },
+  {
+    "profile_id": "P0014",
+    "objectives": [
+      "report generation",
+      "certificate issuance",
+      "remote diagnosis"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.11369989061618055,
+      "duration": 0.23527713346113055,
+      "reliability": 0.3914051865331601,
+      "complexity": 0.259617789389529
+    },
+    "budget": {
+      "cost": 274.1351309290002,
+      "duration": 141.41511273225592,
+      "complexity": 2
+    },
+    "request": "We would like report generation and certificate issuance and remote diagnosis configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0015",
+    "objectives": [
+      "weather forecasting",
+      "appointment scheduling"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.19107965683419523,
+      "duration": 0.6232670521439021,
+      "reliability": 0.03118091434611635,
+      "complexity": 0.15447237667578623
+    },
+    "budget": {
+      "cost": 179.87870496946474,
+      "duration": 172.64072933727746,
+      "complexity": 4
+    },
+    "request": "We would like weather forecasting and appointment scheduling configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0016",
+    "objectives": [
+      "live captioning",
+      "file storage",
+      "payment processing"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.36391519105694076,
+      "duration": 0.2476640045987003,
+      "reliability": 0.26095258471397825,
+      "complexity": 0.12746821963038069
+    },
+    "budget": {
+      "cost": 100.72793805337905,
+      "duration": 37.60560829084058,
+      "complexity": 2
+    },
+    "request": "Can you arrange live captioning and file storage and payment processing? This is for a education context, level 1."
+  },
+  {
+    "profile_id": "P0017",
+    "objectives": [
+      "assignment collection",
+      "study reminder"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.09772261153048008,
+      "duration": 0.42759385649833187,
+      "reliability": 0.17703126856977297,
+      "complexity": 0.29765226340141493
+    },
+    "budget": {
+      "cost": 214.8187516522658,
+      "duration": 75.99892363333078,
+      "complexity": 4
+    },
+    "request": "We would like assignment collection and study reminder configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0018",
+    "objectives": [
+      "anomaly detection"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.30951614950050094,
+      "duration": 0.4752571626919709,
+      "reliability": 0.20636915390893185,
+      "complexity": 0.008857533898596191
+    },
+    "budget": {
+      "cost": 152.87920587449372,
+      "duration": 144.6045132657703,
+      "complexity": 4
+    },
+    "request": "Please set up anomaly detection suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0019",
+    "objectives": [
+      "log auditing",
+      "identity verification",
+      "fleet tracking"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.17133079933217024,
+      "duration": 0.4954275098277462,
+      "reliability": 0.059099152530425886,
+      "complexity": 0.2741425383096577
+    },
+    "budget": {
+      "cost": 61.663059488471795,
+      "duration": 34.54332508974029,
+      "complexity": 4
+    },
+    "request": "We would like log auditing and identity verification and fleet tracking configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0020",
+    "objectives": [
+      "language translation",
+      "quizzing"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.028437334483465766,
+      "duration": 0.7241526198027778,
+      "reliability": 0.014955045216810462,
+      "complexity": 0.2324550004969459
+    },
+    "budget": {
+      "cost": 91.50278826180426,
+      "duration": 131.68105628509642,
+      "complexity": 4
+    },
+    "request": "I need help with language translation and quizzing for a level 3 education session."
+  },
+  {
+    "profile_id": "P0021",
+    "objectives": [
+      "quizzing"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.4830880172969162,
+      "duration": 0.1874023193378708,
+      "reliability": 0.0620136262796766,
+      "complexity": 0.2674960370855364
+    },
+    "budget": {
+      "cost": 202.68769640338155,
+      "duration": 58.68790201273461,
+      "complexity": 3
+    },
+    "request": "Please set up quizzing suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0022",
+    "objectives": [
+      "whiteboarding",
+      "smart locking",
+      "remote diagnosis"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.2876556247458859,
+      "duration": 0.10183032803142526,
+      "reliability": 0.5763178914592557,
+      "complexity": 0.03419615576343319
+    },
+    "budget": {
+      "cost": 78.1792479307175,
+      "duration": 123.99177289921816,
+      "complexity": 3
+    },
+    "request": "We would like whiteboarding and smart locking and remote diagnosis configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0023",
+    "objectives": [
+      "identity verification"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.7549038640603227,
+      "duration": 0.11516377618411375,
+      "reliability": 0.03506549774249796,
+      "complexity": 0.09486686201306556
+    },
+    "budget": {
+      "cost": 270.65517997547954,
+      "duration": 59.59238547476198,
+      "complexity": 2
+    },
+    "request": "Please set up identity verification suited to a level 1 audience."
+  },
+  {
+    "profile_id": "P0024",
+    "objectives": [
+      "appointment scheduling",
+      "occupancy detection"
+    ],
+    "level": 1,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.055024499951544056,
+      "duration": 0.1855939276373088,
+      "reliability": 0.2841462448601869,
+      "complexity": 0.4752353275509603
+    },
+    "budget": {
+      "cost": 230.51183323163846,
+      "duration": 160.0910081358534,
+      "complexity": 2
+    },
+    "request": "Can you arrange appointment scheduling and occupancy detection? This is for a healthcare context, level 1."
+  },
+  {
+    "profile_id": "P0025",
+    "objectives": [
+      "lecture recording",
+      "log auditing"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.1119886644238411,
+      "duration": 0.11321299619748602,
+      "reliability": 0.6178146628108275,
+      "complexity": 0.1569836765678453
+    },
+    "budget": {
+      "cost": 144.82990606314195,
+      "duration": 67.91618255764601,
+      "complexity": 3
+    },
+    "request": "I need help with lecture recording and log auditing for a level 2 education session."
+  },
+  {
+    "profile_id": "P0026",
+    "objectives": [
+      "route planning",
+      "entertainment streaming",
+      "report generation"
+    ],
+    "level": 2,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.0437420147287748,
+      "duration": 0.2822741742449749,
+      "reliability": 0.5026337228075567,
+      "complexity": 0.17135008821869363
+    },
+    "budget": {
+      "cost": 142.93098819360455,
+      "duration": 110.92824884211518,
+      "complexity": 3
+    },
+    "request": "Please set up route planning and entertainment streaming and report generation suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0027",
+    "objectives": [
+      "gradebook synchronisation"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.2182158389266213,
+      "duration": 0.2927072429972429,
+      "reliability": 0.04741062094993977,
+      "complexity": 0.44166629712619604
+    },
+    "budget": {
+      "cost": 194.76364360731355,
+      "duration": 74.95408093357517,
+      "complexity": 4
+    },
+    "request": "I need help with gradebook synchronisation for a level 3 education session."
+  },
+  {
+    "profile_id": "P0028",
+    "objectives": [
+      "ambient sensing"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.4910047911444424,
+      "duration": 0.1801573869790412,
+      "reliability": 0.27820578058033874,
+      "complexity": 0.050632041296177696
+    },
+    "budget": {
+      "cost": 276.59809135006424,
+      "duration": 70.38664495100858,
+      "complexity": 2
+    },
+    "request": "We would like ambient sensing configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0029",
+    "objectives": [
+      "study reminder",
+      "weather forecasting",
+      "charging-station locating"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.23528913922478215,
+      "duration": 0.45342733555424686,
+      "reliability": 0.11282671988728105,
+      "complexity": 0.19845680533368978
+    },
+    "budget": {
+      "cost": 74.20192720911702,
+      "duration": 139.09871651078157,
+      "complexity": 4
+    },
+    "request": "I need help with study reminder and weather forecasting and charging-station locating for a level 3 education session."
+  },
+  {
+    "profile_id": "P0030",
+    "objectives": [
+      "file storage"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.12934541486577297,
+      "duration": 0.49204513642864234,
+      "reliability": 0.020663044665621928,
+      "complexity": 0.3579464040399627
+    },
+    "budget": {
+      "cost": 239.3649765955505,
+      "duration": 58.62573052345158,
+      "complexity": 3
+    },
+    "request": "We would like file storage configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0031",
+    "objectives": [
+      "language translation"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.6336263819175226,
+      "duration": 0.31090509595031507,
+      "reliability": 0.02403839014164686,
+      "complexity": 0.031430131990515565
+    },
+    "budget": {
+      "cost": 249.88424284703572,
+      "duration": 126.6782434535212,
+      "complexity": 4
+    },
+    "request": "Can you arrange language translation? This is for a education context, level 3."
+  },
+  {
+    "profile_id": "P0032",
+    "objectives": [
+      "fleet tracking"
+    ],
+    "level": 2,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.30111253831914797,
+      "duration": 0.24306855755960413,
+      "reliability": 0.4445196079754984,
+      "complexity": 0.011299296145749375
+    },
+    "budget": {
+      "cost": 210.3072776524538,
+      "duration": 57.66684636698683,
+      "complexity": 3
+    },
+    "request": "We would like fleet tracking configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0033",
+    "objectives": [
+      "ride matching",
+      "health record sync",
+      "charging-station locating"
+    ],
+    "level": 1,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.14860380711814183,
+      "duration": 0.15268617080293043,
+      "reliability": 0.007300420958109263,
+      "complexity": 0.6914096011208186
+    },
+    "budget": {
+      "cost": 185.59246938869285,
+      "duration": 88.1277958502597,
+      "complexity": 2
+    },
+    "request": "Please set up ride matching and health record sync and charging-station locating suited to a level 1 audience."
+  },
+  {
+    "profile_id": "P0034",
+    "objectives": [
+      "quizzing",
+      "medication reminder",
+      "fleet tracking"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.621081832044042,
+      "duration": 0.105911272212449,
+      "reliability": 0.03710462023058558,
+      "complexity": 0.23590227551292337
+    },
+    "budget": {
+      "cost": 298.23721468715155,
+      "duration": 52.1982223143097,
+      "complexity": 2
+    },
+    "request": "We would like quizzing and medication reminder and fleet tracking configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0035",
+    "objectives": [
+      "traffic monitoring",
+      "device provisioning"
+    ],
+    "level": 2,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.07766714227931229,
+      "duration": 0.10529927124555277,
+      "reliability": 0.7191937949326861,
+      "complexity": 0.09783979154244879
+    },
+    "budget": {
+      "cost": 94.20188978422402,
+      "duration": 116.24294007435286,
+      "complexity": 3
+    },
+    "request": "We would like traffic monitoring and device provisioning configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0036",
+    "objectives": [
+      "device provisioning",
+      "appliance control",
+      "ride matching"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.04827109399019015,
+      "duration": 0.7218318003976929,
+      "reliability": 0.0949042656790496,
+      "complexity": 0.13499283993306743
+    },
+    "budget": {
+      "cost": 58.139581661298244,
+      "duration": 77.07160595956545,
+      "complexity": 3
+    },
+    "request": "We would like device provisioning and appliance control and ride matching configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0037",
+    "objectives": [
+      "study reminder",
+      "entertainment streaming"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.04780954535058937,
+      "duration": 0.4302390494489961,
+      "reliability": 0.12006363559933021,
+      "complexity": 0.40188776960108435
+    },
+    "budget": {
+      "cost": 106.79487522833834,
+      "duration": 48.73595732664985,
+      "complexity": 2
+    },
+    "request": "Please set up study reminder and entertainment streaming suited to a level 1 audience."
+  },
+  {
+    "profile_id": "P0038",
+    "objectives": [
+      "whiteboarding",
+      "sentiment analysis"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.040185288206588454,
+      "duration": 0.5042271414982664,
+      "reliability": 0.28142725638650845,
+      "complexity": 0.1741603139086368
+    },
+    "budget": {
+      "cost": 217.46613995432804,
+      "duration": 69.87973165422292,
+      "complexity": 4
+    },
+    "request": "I need help with whiteboarding and sentiment analysis for a level 3 education session."
+  },
+  {
+    "profile_id": "P0039",
+    "objectives": [
+      "medication reminder"
+    ],
+    "level": 3,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.22241735305446614,
+      "duration": 0.44713459368426955,
+      "reliability": 0.24427210949055256,
+      "complexity": 0.08617594377071171
+    },
+    "budget": {
+      "cost": 247.7034496926323,
+      "duration": 161.01561737185267,
+      "complexity": 4
+    },
+    "request": "Please set up medication reminder suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0040",
+    "objectives": [
+      "live captioning",
+      "peer grouping"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.15361604758774214,
+      "duration": 0.6804125941658271,
+      "reliability": 0.16141003254463432,
+      "complexity": 0.004561325701796591
+    },
+    "budget": {
+      "cost": 176.6190040470327,
+      "duration": 104.60775663292729,
+      "complexity": 3
+    },
+    "request": "I need help with live captioning and peer grouping for a level 2 education session."
+  },
+  {
+    "profile_id": "P0041",
+    "objectives": [
+      "identity verification",
+      "device provisioning"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.11583682499879187,
+      "duration": 0.060341353870231346,
+      "reliability": 0.10714007371252846,
+      "complexity": 0.7166817474184484
+    },
+    "budget": {
+      "cost": 270.21425671730697,
+      "duration": 144.14392824866817,
+      "complexity": 4
+    },
+    "request": "Please set up identity verification and device provisioning suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0042",
+    "objectives": [
+      "payment processing",
+      "report generation",
+      "video conferencing"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.27680535160670244,
+      "duration": 0.1624505473905695,
+      "reliability": 0.5133847868805227,
+      "complexity": 0.04735931412220526
+    },
+    "budget": {
+      "cost": 239.1312447889471,
+      "duration": 54.875594365299186,
+      "complexity": 2
+    },
+    "request": "We would like payment processing and report generation and video conferencing configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0043",
+    "objectives": [
+      "device provisioning",
+      "weather forecasting"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.5676072798332165,
+      "duration": 0.18541797558322348,
+      "reliability": 0.1934835756235943,
+      "complexity": 0.0534911689599657
+    },
+    "budget": {
+      "cost": 291.35692727114343,
+      "duration": 116.30640927174434,
+      "complexity": 4
+    },
+    "request": "Please set up device provisioning and weather forecasting suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0044",
+    "objectives": [
+      "attendance tracking",
+      "identity verification"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.19894327293496886,
+      "duration": 0.2863289362464624,
+      "reliability": 0.35351297251630903,
+      "complexity": 0.16121481830225967
+    },
+    "budget": {
+      "cost": 153.77210839803178,
+      "duration": 133.8181693177525,
+      "complexity": 3
+    },
+    "request": "We would like attendance tracking and identity verification configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0045",
+    "objectives": [
+      "weather forecasting"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.3600685860947269,
+      "duration": 0.11656214107613484,
+      "reliability": 0.3406805434865585,
+      "complexity": 0.18268872934257965
+    },
+    "budget": {
+      "cost": 66.32873778754245,
+      "duration": 139.17630981664075,
+      "complexity": 4
+    },
+    "request": "Please set up weather forecasting suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0046",
+    "objectives": [
+      "telepresence",
+      "quizzing",
+      "anomaly detection"
+    ],
+    "level": 2,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.2030283033076358,
+      "duration": 0.4205013919079904,
+      "reliability": 0.24327052939507815,
+      "complexity": 0.13319977538929556
+    },
+    "budget": {
+      "cost": 190.69796766571815,
+      "duration": 113.71630392743815,
+      "complexity": 3
+    },
+    "request": "Please set up telepresence and quizzing and anomaly detection suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0047",
+    "objectives": [
+      "bandwidth shaping"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.30904242387337977,
+      "duration": 0.2718823549088654,
+      "reliability": 0.40162855537832143,
+      "complexity": 0.01744666583943346
+    },
+    "budget": {
+      "cost": 198.3070982964114,
+      "duration": 63.32953278408965,
+      "complexity": 3
+    },
+    "request": "I need help with bandwidth shaping for a level 2 living session."
+  },
+  {
+    "profile_id": "P0048",
+    "objectives": [
+      "plagiarism checking"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.04718125825676375,
+      "duration": 0.2541800750030924,
+      "reliability": 0.4916336778935108,
+      "complexity": 0.20700498884663313
+    },
+    "budget": {
+      "cost": 188.36475148032463,
+      "duration": 151.05686203895857,
+      "complexity": 2
+    },
+    "request": "We would like plagiarism checking configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0049",
+    "objectives": [
+      "package detection"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.4552975940847035,
+      "duration": 0.16278195059101608,
+      "reliability": 0.12270781398342223,
+      "complexity": 0.2592126413408583
+    },
+    "budget": {
+      "cost": 189.58086452334052,
+      "duration": 89.41239959645057,
+      "complexity": 4
+    },
+    "request": "Can you arrange package detection? This is for a living context, level 3."
+  },
+  {
+    "profile_id": "P0050",
+    "objectives": [
+      "charging-station locating"
+    ],
+    "level": 3,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.2303008233025509,
+      "duration": 0.6575658650661026,
+      "reliability": 0.07519127716008646,
+      "complexity": 0.03694203447125993
+    },
+    "budget": {
+      "cost": 256.7047347173558,
+      "duration": 87.14438911993543,
+      "complexity": 4
+    },
+    "request": "Please set up charging-station locating suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0051",
+    "objectives": [
+      "weather forecasting",
+      "ambient regulation"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.32488096135869254,
+      "duration": 0.02212233114100331,
+      "reliability": 0.5288884194743999,
+      "complexity": 0.12410828802590425
+    },
+    "budget": {
+      "cost": 194.88483937958983,
+      "duration": 113.67387393350967,
+      "complexity": 4
+    },
+    "request": "Please set up weather forecasting and ambient regulation suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0052",
+    "objectives": [
+      "parking detection",
+      "charging-station locating",
+      "telepresence"
+    ],
+    "level": 2,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.10177997428544315,
+      "duration": 0.40130193229004696,
+      "reliability": 0.18516383632643185,
+      "complexity": 0.3117542570980782
+    },
+    "budget": {
+      "cost": 299.76468886995394,
+      "duration": 82.8827912818007,
+      "complexity": 3
+    },
+    "request": "Please set up parking detection and charging-station locating and telepresence suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0053",
+    "objectives": [
+      "entertainment streaming"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.4752758389014887,
+      "duration": 0.28678807820015395,
+      "reliability": 0.10482681873289834,
+      "complexity": 0.1331092641654588
+    },
+    "budget": {
+      "cost": 116.7252855104832,
+      "duration": 162.65979065270992,
+      "complexity": 4
+    },
+    "request": "Please set up entertainment streaming suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0054",
+    "objectives": [
+      "irrigation control"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.04980453020080035,
+      "duration": 0.37461540229655027,
+      "reliability": 0.07347353276535137,
+      "complexity": 0.5021065347372979
+    },
+    "budget": {
+      "cost": 99.50527043986425,
+      "duration": 93.03639340893157,
+      "complexity": 4
+    },
+    "request": "Can you arrange irrigation control? This is for a living context, level 3."
+  },
+  {
+    "profile_id": "P0055",
+    "objectives": [
+      "notification dispatch"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.0659729990128396,
+      "duration": 0.3394411646745067,
+      "reliability": 0.15486040762203027,
+      "complexity": 0.43972542869062353
+    },
+    "budget": {
+      "cost": 186.47224414511342,
+      "duration": 60.201115073923816,
+      "complexity": 3
+    },
+    "request": "We would like notification dispatch configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0056",
+    "objectives": [
+      "revision scheduling",
+      "vital sign monitoring"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.04921083333490077,
+      "duration": 0.5338323848503481,
+      "reliability": 0.14867548545635684,
+      "complexity": 0.26828129635839426
+    },
+    "budget": {
+      "cost": 65.6134782152258,
+      "duration": 132.43698831683236,
+      "complexity": 4
+    },
+    "request": "We would like revision scheduling and vital sign monitoring configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0057",
+    "objectives": [
+      "live captioning",
+      "smart lighting"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.2455797596132583,
+      "duration": 0.10794578362025796,
+      "reliability": 0.10197636116611979,
+      "complexity": 0.5444980956003639
+    },
+    "budget": {
+      "cost": 207.75329560769862,
+      "duration": 60.475176236280774,
+      "complexity": 3
+    },
+    "request": "Please set up live captioning and smart lighting suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0058",
+    "objectives": [
+      "anomaly detection"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.36255015105609323,
+      "duration": 0.09102694589785845,
+      "reliability": 0.011615926487864197,
+      "complexity": 0.5348069765581841
+    },
+    "budget": {
+      "cost": 242.95907782917877,
+      "duration": 136.43504050272728,
+      "complexity": 3
+    },
+    "request": "Please set up anomaly detection suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0059",
+    "objectives": [
+      "flashcard generation",
+      "lecture recording",
+      "plagiarism checking"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.2195790998429483,
+      "duration": 0.6833088166705227,
+      "reliability": 0.05169777816203057,
+      "complexity": 0.045414305324498486
+    },
+    "budget": {
+      "cost": 241.92278151183055,
+      "duration": 142.5387371539444,
+      "complexity": 4
+    },
+    "request": "We would like flashcard generation and lecture recording and plagiarism checking configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0060",
+    "objectives": [
+      "certificate issuance"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.1146585087177656,
+      "duration": 0.5155235956625871,
+      "reliability": 0.10375986895724656,
+      "complexity": 0.2660580266624009
+    },
+    "budget": {
+      "cost": 209.95581397041562,
+      "duration": 50.35717574752195,
+      "complexity": 2
+    },
+    "request": "Please set up certificate issuance suited to a level 1 audience."
+  },
+  {
+    "profile_id": "P0061",
+    "objectives": [
+      "smart lighting",
+      "lecture recording",
+      "peer grouping"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.03373826905553182,
+      "duration": 0.07342163062697131,
+      "reliability": 0.2535795359219249,
+      "complexity": 0.639260564395572
+    },
+    "budget": {
+      "cost": 53.768194632604164,
+      "duration": 98.72598308135579,
+      "complexity": 4
+    },
+    "request": "We would like smart lighting and lecture recording and peer grouping configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0062",
+    "objectives": [
+      "flashcard generation"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.6066087922635072,
+      "duration": 0.06437938697264138,
+      "reliability": 0.16937246021188465,
+      "complexity": 0.1596393605519669
+    },
+    "budget": {
+      "cost": 154.39889230899246,
+      "duration": 152.52681263969026,
+      "complexity": 2
+    },
+    "request": "Please set up flashcard generation suited to a level 1 audience."
+  },
+  {
+    "profile_id": "P0063",
+    "objectives": [
+      "firmware updating",
+      "fitness tracking",
+      "flashcard generation"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.0026828505761556203,
+      "duration": 0.42064966337698695,
+      "reliability": 0.346476649125263,
+      "complexity": 0.2301908369215945
+    },
+    "budget": {
+      "cost": 103.45789558169506,
+      "duration": 173.00340155967834,
+      "complexity": 3
+    },
+    "request": "Can you arrange firmware updating and fitness tracking and flashcard generation? This is for a living context, level 2."
+  },
+  {
+    "profile_id": "P0064",
+    "objectives": [
+      "log auditing"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.20206156581789228,
+      "duration": 0.003953942264572636,
+      "reliability": 0.6018448236582232,
+      "complexity": 0.192139668259312
+    },
+    "budget": {
+      "cost": 297.45231284397545,
+      "duration": 121.78875264626224,
+      "complexity": 2
+    },
+    "request": "I need help with log auditing for a level 1 living session."
+  },
+  {
+    "profile_id": "P0065",
+    "objectives": [
+      "telepresence",
+      "parking detection",
+      "file storage"
+    ],
+    "level": 1,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.43193012205109954,
+      "duration": 0.1485231901867072,
+      "reliability": 0.4036104220205722,
+      "complexity": 0.015936265741621027
+    },
+    "budget": {
+      "cost": 231.03157620618111,
+      "duration": 134.08816142918005,
+      "complexity": 2
+    },
+    "request": "We would like telepresence and parking detection and file storage configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0066",
+    "objectives": [
+      "energy monitoring",
+      "fleet tracking"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.4559097764162849,
+      "duration": 0.0678165768959475,
+      "reliability": 0.2218710595574229,
+      "complexity": 0.25440258713034464
+    },
+    "budget": {
+      "cost": 125.97950725298463,
+      "duration": 97.12735863308986,
+      "complexity": 4
+    },
+    "request": "We would like energy monitoring and fleet tracking configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0067",
+    "objectives": [
+      "broadcasting",
+      "device provisioning"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.5280391856632187,
+      "duration": 0.4028763873454009,
+      "reliability": 0.06821703967684813,
+      "complexity": 0.0008673873145322937
+    },
+    "budget": {
+      "cost": 246.74184051641782,
+      "duration": 66.82137768287384,
+      "complexity": 3
+    },
+    "request": "We would like broadcasting and device provisioning configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0068",
+    "objectives": [
+      "screen sharing"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.586185480053491,
+      "duration": 0.10013677795409977,
+      "reliability": 0.12222752250613188,
+      "complexity": 0.19145021948627727
+    },
+    "budget": {
+      "cost": 117.13449377306677,
+      "duration": 135.36088170657848,
+      "complexity": 2
+    },
+    "request": "We would like screen sharing configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0069",
+    "objectives": [
+      "lecture recording",
+      "revision scheduling"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.1847219286422456,
+      "duration": 0.00891055275982928,
+      "reliability": 0.568634299059072,
+      "complexity": 0.23773321953885318
+    },
+    "budget": {
+      "cost": 71.09962797863635,
+      "duration": 71.13848690858114,
+      "complexity": 3
+    },
+    "request": "I need help with lecture recording and revision scheduling for a level 2 education session."
+  },
+  {
+    "profile_id": "P0070",
+    "objectives": [
+      "payment processing",
+      "charging-station locating",
+      "sleep tracking"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.05194925389311276,
+      "duration": 0.5803611702231577,
+      "reliability": 0.2074500924110204,
+      "complexity": 0.1602394834727091
+    },
+    "budget": {
+      "cost": 208.91853876745535,
+      "duration": 141.06429912154186,
+      "complexity": 3
+    },
+    "request": "Can you arrange payment processing and charging-station locating and sleep tracking? This is for a living context, level 2."
+  },
+  {
+    "profile_id": "P0071",
+    "objectives": [
+      "smart locking"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.4064765701570445,
+      "duration": 0.23980350822235727,
+      "reliability": 0.007260563074451091,
+      "complexity": 0.3464593585461472
+    },
+    "budget": {
+      "cost": 228.4000990191171,
+      "duration": 60.71079726432003,
+      "complexity": 3
+    },
+    "request": "Can you arrange smart locking? This is for a living context, level 2."
+  },
+  {
+    "profile_id": "P0072",
+    "objectives": [
+      "pet monitoring",
+      "e-ticketing",
+      "accessibility adaptation"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.5318231136167548,
+      "duration": 0.3324876805420169,
+      "reliability": 0.028798182226722546,
+      "complexity": 0.10689102361450567
+    },
+    "budget": {
+      "cost": 104.87639490942641,
+      "duration": 70.6659343956901,
+      "complexity": 2
+    },
+    "request": "We would like pet monitoring and e-ticketing and accessibility adaptation configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0073",
+    "objectives": [
+      "peer grouping"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.23631815688225852,
+      "duration": 0.04510453166580224,
+      "reliability": 0.347489063036637,
+      "complexity": 0.3710882484153024
+    },
+    "budget": {
+      "cost": 118.2461749308976,
+      "duration": 115.83724361648034,
+      "complexity": 4
+    },
+    "request": "I need help with peer grouping for a level 3 education session."
+  },
+  {
+    "profile_id": "P0074",
+    "objectives": [
+      "medication reminder",
+      "irrigation control"
+    ],
+    "level": 2,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.6196180345427372,
+      "duration": 0.09839003044623165,
+      "reliability": 0.23207681329742072,
+      "complexity": 0.04991512171361036
+    },
+    "budget": {
+      "cost": 198.70328414506437,
+      "duration": 159.79679314123595,
+      "complexity": 3
+    },
+    "request": "I need help with medication reminder and irrigation control for a level 2 healthcare session."
+  },
+  {
+    "profile_id": "P0075",
+    "objectives": [
+      "weather forecasting",
+      "sentiment analysis",
+      "broadcasting"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.25024812409404995,
+      "duration": 0.07579415574010928,
+      "reliability": 0.16673304682729315,
+      "complexity": 0.5072246733385477
+    },
+    "budget": {
+      "cost": 167.38905563421002,
+      "duration": 97.97254822375615,
+      "complexity": 2
+    },
+    "request": "Please set up weather forecasting and sentiment analysis and broadcasting suited to a level 1 audience."
+  },
+  {
+    "profile_id": "P0076",
+    "objectives": [
+      "revision scheduling",
+      "bandwidth shaping",
+      "anomaly detection"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.12745815361508078,
+      "duration": 0.06805465479348426,
+      "reliability": 0.3556583701075588,
+      "complexity": 0.44882882148387593
+    },
+    "budget": {
+      "cost": 194.85189356909467,
+      "duration": 127.06718213357793,
+      "complexity": 4
+    },
+    "request": "Please set up revision scheduling and bandwidth shaping and anomaly detection suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0077",
+    "objectives": [
+      "revision scheduling",
+      "fitness tracking",
+      "appointment scheduling"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.2836875729961435,
+      "duration": 0.39576145626894355,
+      "reliability": 0.029710165695823697,
+      "complexity": 0.29084080503908927
+    },
+    "budget": {
+      "cost": 172.73396177770834,
+      "duration": 54.89032986974889,
+      "complexity": 4
+    },
+    "request": "Can you arrange revision scheduling and fitness tracking and appointment scheduling? This is for a education context, level 3."
+  },
+  {
+    "profile_id": "P0078",
+    "objectives": [
+      "sleep tracking",
+      "log auditing"
+    ],
+    "level": 2,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.2746618781860688,
+      "duration": 0.1651276960733201,
+      "reliability": 0.3772773549944787,
+      "complexity": 0.18293307074613258
+    },
+    "budget": {
+      "cost": 143.07010266752758,
+      "duration": 111.25477782556642,
+      "complexity": 3
+    },
+    "request": "I need help with sleep tracking and log auditing for a level 2 healthcare session."
+  },
+  {
+    "profile_id": "P0079",
+    "objectives": [
+      "parking detection",
+      "peer grouping"
+    ],
+    "level": 1,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.5200484566797943,
+      "duration": 0.3081102115367349,
+      "reliability": 0.052869229649242774,
+      "complexity": 0.11897210213422786
+    },
+    "budget": {
+      "cost": 93.42029707747821,
+      "duration": 157.37327473949648,
+      "complexity": 2
+    },
+    "request": "I need help with parking detection and peer grouping for a level 1 mobility session."
+  },
+  {
+    "profile_id": "P0080",
+    "objectives": [
+      "device provisioning"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.24914327230955244,
+      "duration": 0.17569698830515856,
+      "reliability": 0.17711955345920868,
+      "complexity": 0.3980401859260803
+    },
+    "budget": {
+      "cost": 67.54331041257326,
+      "duration": 55.69186694873348,
+      "complexity": 4
+    },
+    "request": "I need help with device provisioning for a level 3 living session."
+  },
+  {
+    "profile_id": "P0081",
+    "objectives": [
+      "pet monitoring"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.47840793774302465,
+      "duration": 0.22115731349024287,
+      "reliability": 0.04160899246949071,
+      "complexity": 0.2588257562972419
+    },
+    "budget": {
+      "cost": 295.5232795670495,
+      "duration": 142.60832198065845,
+      "complexity": 4
+    },
+    "request": "Can you arrange pet monitoring? This is for a living context, level 3."
+  },
+  {
+    "profile_id": "P0082",
+    "objectives": [
+      "appliance control",
+      "payment processing",
+      "note synchronisation"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.0004762444166562611,
+      "duration": 0.5998927151509217,
+      "reliability": 0.0784461339614236,
+      "complexity": 0.32118490647099857
+    },
+    "budget": {
+      "cost": 215.4388995727111,
+      "duration": 106.180435236694,
+      "complexity": 4
+    },
+    "request": "We would like appliance control and payment processing and note synchronisation configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0083",
+    "objectives": [
+      "irrigation control",
+      "flashcard generation"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.015499966059733526,
+      "duration": 0.4990265890742252,
+      "reliability": 0.10922737432702653,
+      "complexity": 0.3762460705390147
+    },
+    "budget": {
+      "cost": 139.12748233566856,
+      "duration": 118.02483730507069,
+      "complexity": 2
+    },
+    "request": "Please set up irrigation control and flashcard generation suited to a level 1 audience."
+  },
+  {
+    "profile_id": "P0084",
+    "objectives": [
+      "smart locking",
+      "whiteboarding",
+      "accessibility adaptation"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.12886134669702037,
+      "duration": 0.19174866849458957,
+      "reliability": 0.26911820126350955,
+      "complexity": 0.41027178354488053
+    },
+    "budget": {
+      "cost": 271.78103298736335,
+      "duration": 167.7102758922789,
+      "complexity": 4
+    },
+    "request": "We would like smart locking and whiteboarding and accessibility adaptation configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0085",
+    "objectives": [
+      "study reminder",
+      "acoustics"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.061913822786350055,
+      "duration": 0.21909153397929573,
+      "reliability": 0.294048611239974,
+      "complexity": 0.4249460319943802
+    },
+    "budget": {
+      "cost": 86.47537975815243,
+      "duration": 136.85440129897023,
+      "complexity": 3
+    },
+    "request": "Please set up study reminder and acoustics suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0086",
+    "objectives": [
+      "voice assistance",
+      "lecture recording",
+      "weather forecasting"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.1561873033409342,
+      "duration": 0.4648583304117431,
+      "reliability": 0.026811606336555393,
+      "complexity": 0.35214275991076716
+    },
+    "budget": {
+      "cost": 132.88774888610217,
+      "duration": 170.69387403015475,
+      "complexity": 2
+    },
+    "request": "Can you arrange voice assistance and lecture recording and weather forecasting? This is for a living context, level 1."
+  },
+  {
+    "profile_id": "P0087",
+    "objectives": [
+      "whiteboarding",
+      "firmware updating",
+      "occupancy detection"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.2570673865340285,
+      "duration": 0.14720843068643408,
+      "reliability": 0.10082114871611945,
+      "complexity": 0.49490303406341785
+    },
+    "budget": {
+      "cost": 219.65477429601566,
+      "duration": 179.5841322100797,
+      "complexity": 4
+    },
+    "request": "I need help with whiteboarding and firmware updating and occupancy detection for a level 3 education session."
+  },
+  {
+    "profile_id": "P0088",
+    "objectives": [
+      "screen sharing",
+      "firmware updating"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.3131656081753176,
+      "duration": 0.40689090804361155,
+      "reliability": 0.2523655007927013,
+      "complexity": 0.02757798298836961
+    },
+    "budget": {
+      "cost": 163.23456775956754,
+      "duration": 171.41689103452285,
+      "complexity": 3
+    },
+    "request": "Please set up screen sharing and firmware updating suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0089",
+    "objectives": [
+      "vehicle sharing",
+      "bandwidth shaping"
+    ],
+    "level": 2,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.1803015485246497,
+      "duration": 0.47345960565338385,
+      "reliability": 0.13692109766077587,
+      "complexity": 0.20931774816119061
+    },
+    "budget": {
+      "cost": 162.04961404505062,
+      "duration": 87.91784905174872,
+      "complexity": 3
+    },
+    "request": "We would like vehicle sharing and bandwidth shaping configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0090",
+    "objectives": [
+      "appliance control"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.01571521748985501,
+      "duration": 0.5266258650653675,
+      "reliability": 0.1703884123248329,
+      "complexity": 0.2872705051199447
+    },
+    "budget": {
+      "cost": 250.5838630356649,
+      "duration": 64.51592437365971,
+      "complexity": 4
+    },
+    "request": "I need help with appliance control for a level 3 living session."
+  },
+  {
+    "profile_id": "P0091",
+    "objectives": [
+      "irrigation control",
+      "discussion moderation"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.6448841414776034,
+      "duration": 0.11335200813370377,
+      "reliability": 0.17009747117517596,
+      "complexity": 0.07166637921351678
+    },
+    "budget": {
+      "cost": 96.64262534252478,
+      "duration": 45.9630225129266,
+      "complexity": 3
+    },
+    "request": "Please set up irrigation control and discussion moderation suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0092",
+    "objectives": [
+      "flashcard generation",
+      "ride matching",
+      "parking detection"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.016145906020228,
+      "duration": 0.24252389557146456,
+      "reliability": 0.6857866423023106,
+      "complexity": 0.05554355610599685
+    },
+    "budget": {
+      "cost": 137.05372547634698,
+      "duration": 121.43243457162967,
+      "complexity": 3
+    },
+    "request": "Can you arrange flashcard generation and ride matching and parking detection? This is for a education context, level 2."
+  },
+  {
+    "profile_id": "P0093",
+    "objectives": [
+      "screen sharing",
+      "ride matching",
+      "appointment scheduling"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.8707974045724224,
+      "duration": 0.026013640278640778,
+      "reliability": 0.07100998651535934,
+      "complexity": 0.032178968633577436
+    },
+    "budget": {
+      "cost": 297.87473988189527,
+      "duration": 72.9892380698106,
+      "complexity": 2
+    },
+    "request": "I need help with screen sharing and ride matching and appointment scheduling for a level 1 education session."
+  },
+  {
+    "profile_id": "P0094",
+    "objectives": [
+      "fitness tracking",
+      "polling"
+    ],
+    "level": 2,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.04036795258796792,
+      "duration": 0.25593091359628073,
+      "reliability": 0.5466792900528454,
+      "complexity": 0.15702184376290582
+    },
+    "budget": {
+      "cost": 133.97732874645538,
+      "duration": 79.18629151962094,
+      "complexity": 3
+    },
+    "request": "We would like fitness tracking and polling configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0095",
+    "objectives": [
+      "broadcasting",
+      "smart locking",
+      "whiteboarding"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.40257573855104484,
+      "duration": 0.5280967629132093,
+      "reliability": 0.0572773865041817,
+      "complexity": 0.012050112031564298
+    },
+    "budget": {
+      "cost": 281.73011235329705,
+      "duration": 95.28129443680368,
+      "complexity": 2
+    },
+    "request": "I need help with broadcasting and smart locking and whiteboarding for a level 1 education session."
+  },
+  {
+    "profile_id": "P0096",
+    "objectives": [
+      "health record sync",
+      "assignment collection",
+      "e-ticketing"
+    ],
+    "level": 2,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.6676109059332109,
+      "duration": 0.21969854753252532,
+      "reliability": 0.10598574900229264,
+      "complexity": 0.006704797531971121
+    },
+    "budget": {
+      "cost": 104.79775112112367,
+      "duration": 33.815118537450054,
+      "complexity": 3
+    },
+    "request": "I need help with health record sync and assignment collection and e-ticketing for a level 2 healthcare session."
+  },
+  {
+    "profile_id": "P0097",
+    "objectives": [
+      "note synchronisation"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.013884438482924213,
+      "duration": 0.05728608301200641,
+      "reliability": 0.6521098111998216,
+      "complexity": 0.2767196673052478
+    },
+    "budget": {
+      "cost": 133.2492311324062,
+      "duration": 42.98092056000937,
+      "complexity": 4
+    },
+    "request": "Can you arrange note synchronisation? This is for a education context, level 3."
+  },
+  {
+    "profile_id": "P0098",
+    "objectives": [
+      "file storage",
+      "vital sign monitoring"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.6913689654446611,
+      "duration": 0.048189763993329505,
+      "reliability": 0.0655830338981938,
+      "complexity": 0.19485823666381552
+    },
+    "budget": {
+      "cost": 288.0579846057334,
+      "duration": 152.56979131175564,
+      "complexity": 2
+    },
+    "request": "Can you arrange file storage and vital sign monitoring? This is for a living context, level 1."
+  },
+  {
+    "profile_id": "P0099",
+    "objectives": [
+      "fitness tracking",
+      "vital sign monitoring",
+      "emergency alerting"
+    ],
+    "level": 1,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.034019526747490314,
+      "duration": 0.05463897117841383,
+      "reliability": 0.6915550208023236,
+      "complexity": 0.21978648127177228
+    },
+    "budget": {
+      "cost": 246.6376659669051,
+      "duration": 97.86061804499884,
+      "complexity": 2
+    },
+    "request": "We would like fitness tracking and vital sign monitoring and emergency alerting configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0100",
+    "objectives": [
+      "parking detection",
+      "peer grouping"
+    ],
+    "level": 1,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.23443585011402476,
+      "duration": 0.0672773036041604,
+      "reliability": 0.6393151986475504,
+      "complexity": 0.058971647634264455
+    },
+    "budget": {
+      "cost": 127.83593999381434,
+      "duration": 105.77315056775292,
+      "complexity": 2
+    },
+    "request": "We would like parking detection and peer grouping configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0101",
+    "objectives": [
+      "e-ticketing",
+      "broadcasting"
+    ],
+    "level": 3,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.1081180947746154,
+      "duration": 0.40402660870143065,
+      "reliability": 0.36228404787920016,
+      "complexity": 0.1255712486447538
+    },
+    "budget": {
+      "cost": 129.18973243752123,
+      "duration": 72.05757085456193,
+      "complexity": 4
+    },
+    "request": "I need help with e-ticketing and broadcasting for a level 3 mobility session."
+  },
+  {
+    "profile_id": "P0102",
+    "objectives": [
+      "appliance control",
+      "irrigation control",
+      "device provisioning"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.3649009519189663,
+      "duration": 0.397622210803542,
+      "reliability": 0.014127511828688214,
+      "complexity": 0.22334932544880354
+    },
+    "budget": {
+      "cost": 176.0261257478491,
+      "duration": 95.30817627200615,
+      "complexity": 2
+    },
+    "request": "I need help with appliance control and irrigation control and device provisioning for a level 1 living session."
+  },
+  {
+    "profile_id": "P0103",
+    "objectives": [
+      "smart lighting",
+      "geofencing",
+      "firmware updating"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.16991687253217377,
+      "duration": 0.31408537980928863,
+      "reliability": 0.09031316510319594,
+      "complexity": 0.42568458255534164
+    },
+    "budget": {
+      "cost": 194.0145955929683,
+      "duration": 61.50854045937017,
+      "complexity": 3
+    },
+    "request": "I need help with smart lighting and geofencing and firmware updating for a level 2 living session."
+  },
+  {
+    "profile_id": "P0104",
+    "objectives": [
+      "energy monitoring",
+      "payment processing"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.10673185003430564,
+      "duration": 0.03507750861870424,
+      "reliability": 0.2774997372934676,
+      "complexity": 0.5806909040535225
+    },
+    "budget": {
+      "cost": 64.23720527972644,
+      "duration": 94.31697447758057,
+      "complexity": 3
+    },
+    "request": "Can you arrange energy monitoring and payment processing? This is for a living context, level 2."
+  },
+  {
+    "profile_id": "P0105",
+    "objectives": [
+      "route planning"
+    ],
+    "level": 1,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.10222501081536228,
+      "duration": 0.038962333981951015,
+      "reliability": 0.6679687895211831,
+      "complexity": 0.19084386568150352
+    },
+    "budget": {
+      "cost": 175.9225041653322,
+      "duration": 74.37552237641874,
+      "complexity": 2
+    },
+    "request": "I need help with route planning for a level 1 mobility session."
+  },
+  {
+    "profile_id": "P0106",
+    "objectives": [
+      "telepresence",
+      "peer grouping",
+      "device provisioning"
+    ],
+    "level": 1,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.2527581261385919,
+      "duration": 0.2249148484033657,
+      "reliability": 0.3070222655406953,
+      "complexity": 0.2153047599173471
+    },
+    "budget": {
+      "cost": 250.77642010173176,
+      "duration": 73.09614138613584,
+      "complexity": 2
+    },
+    "request": "We would like telepresence and peer grouping and device provisioning configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0107",
+    "objectives": [
+      "traffic monitoring",
+      "exam proctoring",
+      "emergency alerting"
+    ],
+    "level": 1,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.018239224752775715,
+      "duration": 0.4689629284894836,
+      "reliability": 0.33121720853971354,
+      "complexity": 0.1815806382180272
+    },
+    "budget": {
+      "cost": 137.5688642811893,
+      "duration": 40.41180348831148,
+      "complexity": 2
+    },
+    "request": "We would like traffic monitoring and exam proctoring and emergency alerting configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0108",
+    "objectives": [
+      "language translation",
+      "energy monitoring"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.08635043272186187,
+      "duration": 0.21451795644309313,
+      "reliability": 0.29547171293236274,
+      "complexity": 0.4036598979026823
+    },
+    "budget": {
+      "cost": 251.65271356495884,
+      "duration": 56.69299667962089,
+      "complexity": 2
+    },
+    "request": "I need help with language translation and energy monitoring for a level 1 education session."
+  },
+  {
+    "profile_id": "P0109",
+    "objectives": [
+      "anomaly detection"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.4711492904930169,
+      "duration": 0.13797471491068417,
+      "reliability": 0.13425650126447325,
+      "complexity": 0.25661949333182565
+    },
+    "budget": {
+      "cost": 100.10629658389513,
+      "duration": 107.92025559056319,
+      "complexity": 3
+    },
+    "request": "I need help with anomaly detection for a level 2 living session."
+  },
+  {
+    "profile_id": "P0110",
+    "objectives": [
+      "note synchronisation",
+      "concept mapping",
+      "remote diagnosis"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.5869636313692156,
+      "duration": 0.03981096987438314,
+      "reliability": 0.02384920678889516,
+      "complexity": 0.3493761919675062
+    },
+    "budget": {
+      "cost": 83.60974781355316,
+      "duration": 58.29397906205105,
+      "complexity": 2
+    },
+    "request": "We would like note synchronisation and concept mapping and remote diagnosis configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0111",
+    "objectives": [
+      "live captioning",
+      "energy monitoring",
+      "appointment scheduling"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.04045490651196318,
+      "duration": 0.20290559786156626,
+      "reliability": 0.5251838123121705,
+      "complexity": 0.23145568331430005
+    },
+    "budget": {
+      "cost": 276.1061185680087,
+      "duration": 66.9533550791783,
+      "complexity": 4
+    },
+    "request": "I need help with live captioning and energy monitoring and appointment scheduling for a level 3 education session."
+  },
+  {
+    "profile_id": "P0112",
+    "objectives": [
+      "energy monitoring",
+      "e-ticketing"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.07212970840917877,
+      "duration": 0.302021315695912,
+      "reliability": 0.16055969094841635,
+      "complexity": 0.46528928494649285
+    },
+    "budget": {
+      "cost": 73.58971028665641,
+      "duration": 50.525378693747946,
+      "complexity": 3
+    },
+    "request": "We would like energy monitoring and e-ticketing configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0113",
+    "objectives": [
+      "sentiment analysis"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.25599000766931224,
+      "duration": 0.6622560982399911,
+      "reliability": 0.002182906494389196,
+      "complexity": 0.07957098759630749
+    },
+    "budget": {
+      "cost": 103.34107218787645,
+      "duration": 42.958615572920195,
+      "complexity": 2
+    },
+    "request": "I need help with sentiment analysis for a level 1 living session."
+  },
+  {
+    "profile_id": "P0114",
+    "objectives": [
+      "package detection",
+      "remote diagnosis"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.011515867472530033,
+      "duration": 0.2980331118233774,
+      "reliability": 0.569372889724561,
+      "complexity": 0.1210781309795317
+    },
+    "budget": {
+      "cost": 84.43552696063581,
+      "duration": 111.28669654865423,
+      "complexity": 2
+    },
+    "request": "Please set up package detection and remote diagnosis suited to a level 1 audience."
+  },
+  {
+    "profile_id": "P0115",
+    "objectives": [
+      "emergency alerting"
+    ],
+    "level": 1,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.4924826702690003,
+      "duration": 0.21441388949042983,
+      "reliability": 0.16309866500952938,
+      "complexity": 0.13000477523104068
+    },
+    "budget": {
+      "cost": 190.88769988805936,
+      "duration": 144.96720657025543,
+      "complexity": 2
+    },
+    "request": "Please set up emergency alerting suited to a level 1 audience."
+  },
+  {
+    "profile_id": "P0116",
+    "objectives": [
+      "notification dispatch",
+      "fleet tracking"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.3093383902830405,
+      "duration": 0.14816940081353455,
+      "reliability": 0.38539096703801456,
+      "complexity": 0.15710124186541033
+    },
+    "budget": {
+      "cost": 93.92058644085958,
+      "duration": 125.94411189298452,
+      "complexity": 4
+    },
+    "request": "We would like notification dispatch and fleet tracking configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0117",
+    "objectives": [
+      "e-ticketing",
+      "sentiment analysis"
+    ],
+    "level": 2,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.17523767666501935,
+      "duration": 0.41737553220966495,
+      "reliability": 0.15217683192279977,
+      "complexity": 0.25520995920251593
+    },
+    "budget": {
+      "cost": 129.0674501823973,
+      "duration": 134.2906908945127,
+      "complexity": 3
+    },
+    "request": "We would like e-ticketing and sentiment analysis configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0118",
+    "objectives": [
+      "leak detection",
+      "sleep tracking",
+      "bandwidth shaping"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.5915803052472678,
+      "duration": 0.027198022872187727,
+      "reliability": 0.33875938368686653,
+      "complexity": 0.042462288193677936
+    },
+    "budget": {
+      "cost": 187.22345396621958,
+      "duration": 57.81817337154379,
+      "complexity": 2
+    },
+    "request": "I need help with leak detection and sleep tracking and bandwidth shaping for a level 1 living session."
+  },
+  {
+    "profile_id": "P0119",
+    "objectives": [
+      "route planning",
+      "smart lighting"
+    ],
+    "level": 3,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.4549546867197318,
+      "duration": 0.21065954695028818,
+      "reliability": 0.08328491481690288,
+      "complexity": 0.2511008515130771
+    },
+    "budget": {
+      "cost": 51.47479239584358,
+      "duration": 85.82452962921474,
+      "complexity": 4
+    },
+    "request": "Can you arrange route planning and smart lighting? This is for a mobility context, level 3."
+  },
+  {
+    "profile_id": "P0120",
+    "objectives": [
+      "anomaly detection"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.33634650340492356,
+      "duration": 0.2563700261540443,
+      "reliability": 0.34820802038461757,
+      "complexity": 0.05907545005641449
+    },
+    "budget": {
+      "cost": 273.70376457117754,
+      "duration": 42.41387355751406,
+      "complexity": 3
+    },
+    "request": "I need help with anomaly detection for a level 2 living session."
+  },
+  {
+    "profile_id": "P0121",
+    "objectives": [
+      "note synchronisation"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.10697058155983173,
+      "duration": 0.04930877795688481,
+      "reliability": 0.5802850536556718,
+      "complexity": 0.26343558682761165
+    },
+    "budget": {
+      "cost": 187.32882086647342,
+      "duration": 141.5570885151063,
+      "complexity": 3
+    },
+    "request": "We would like note synchronisation configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0122",
+    "objectives": [
+      "air quality sensing"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.27671259612839955,
+      "duration": 0.26893627038784074,
+      "reliability": 0.33358736104065856,
+      "complexity": 0.12076377244310121
+    },
+    "budget": {
+      "cost": 74.31516551730422,
+      "duration": 161.02618164703267,
+      "complexity": 3
+    },
+    "request": "I need help with air quality sensing for a level 2 living session."
+  },
+  {
+    "profile_id": "P0123",
+    "objectives": [
+      "health record sync"
+    ],
+    "level": 2,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.14998960539346232,
+      "duration": 0.45868102039633823,
+      "reliability": 0.004932021983014072,
+      "complexity": 0.38639735222718546
+    },
+    "budget": {
+      "cost": 99.24522700538247,
+      "duration": 69.87155131624962,
+      "complexity": 3
+    },
+    "request": "We would like health record sync configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0124",
+    "objectives": [
+      "revision scheduling",
+      "health record sync",
+      "telepresence"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.0071116811889631775,
+      "duration": 0.08672041772143685,
+      "reliability": 0.7187915303483464,
+      "complexity": 0.18737637074125355
+    },
+    "budget": {
+      "cost": 187.47718489539596,
+      "duration": 106.79859029799539,
+      "complexity": 2
+    },
+    "request": "We would like revision scheduling and health record sync and telepresence configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0125",
+    "objectives": [
+      "polling",
+      "charging-station locating",
+      "route planning"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.2398376717101205,
+      "duration": 0.3896275590968886,
+      "reliability": 0.36469097415003277,
+      "complexity": 0.0058437950429581515
+    },
+    "budget": {
+      "cost": 160.01926195978797,
+      "duration": 87.69181256502489,
+      "complexity": 4
+    },
+    "request": "I need help with polling and charging-station locating and route planning for a level 3 education session."
+  },
+  {
+    "profile_id": "P0126",
+    "objectives": [
+      "appointment scheduling",
+      "occupancy detection"
+    ],
+    "level": 1,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.16620998147379018,
+      "duration": 0.5220225979411351,
+      "reliability": 0.10013359876683159,
+      "complexity": 0.21163382181824295
+    },
+    "budget": {
+      "cost": 226.53598718850634,
+      "duration": 100.63281581809912,
+      "complexity": 2
+    },
+    "request": "We would like appointment scheduling and occupancy detection configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0127",
+    "objectives": [
+      "pet monitoring",
+      "attendance tracking",
+      "identity verification"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.1951925452032534,
+      "duration": 0.5463477944584259,
+      "reliability": 0.06669850131450822,
+      "complexity": 0.19176115902381263
+    },
+    "budget": {
+      "cost": 202.35120693109874,
+      "duration": 106.34389685466287,
+      "complexity": 3
+    },
+    "request": "Please set up pet monitoring and attendance tracking and identity verification suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0128",
+    "objectives": [
+      "accessibility adaptation",
+      "file storage",
+      "ambient regulation"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.1469570234495069,
+      "duration": 0.49316965098369026,
+      "reliability": 0.09644537163161862,
+      "complexity": 0.2634279539351842
+    },
+    "budget": {
+      "cost": 169.96264154298584,
+      "duration": 48.73106672909714,
+      "complexity": 3
+    },
+    "request": "We would like accessibility adaptation and file storage and ambient regulation configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0129",
+    "objectives": [
+      "video conferencing",
+      "pet monitoring"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.30553692875418587,
+      "duration": 0.09907079242876259,
+      "reliability": 0.5519002166998872,
+      "complexity": 0.04349206211716431
+    },
+    "budget": {
+      "cost": 169.3339322718801,
+      "duration": 103.78920006305836,
+      "complexity": 4
+    },
+    "request": "Please set up video conferencing and pet monitoring suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0130",
+    "objectives": [
+      "anomaly detection",
+      "geofencing",
+      "ambient regulation"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.1964195571509714,
+      "duration": 0.4473135786476524,
+      "reliability": 0.3136999856960847,
+      "complexity": 0.04256687850529131
+    },
+    "budget": {
+      "cost": 281.76978319685026,
+      "duration": 42.719815329318564,
+      "complexity": 3
+    },
+    "request": "We would like anomaly detection and geofencing and ambient regulation configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0131",
+    "objectives": [
+      "assignment collection"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.40993651696872135,
+      "duration": 0.042099219766551066,
+      "reliability": 0.045429569046067396,
+      "complexity": 0.5025346942186603
+    },
+    "budget": {
+      "cost": 284.0966635900669,
+      "duration": 68.41927594903186,
+      "complexity": 4
+    },
+    "request": "I need help with assignment collection for a level 3 education session."
+  },
+  {
+    "profile_id": "P0132",
+    "objectives": [
+      "language translation",
+      "broadcasting"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.7281477568744006,
+      "duration": 0.01110754432544099,
+      "reliability": 0.21356282887856895,
+      "complexity": 0.04718186992158947
+    },
+    "budget": {
+      "cost": 265.7488572189625,
+      "duration": 156.25531543498957,
+      "complexity": 4
+    },
+    "request": "We would like language translation and broadcasting configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0133",
+    "objectives": [
+      "certificate issuance",
+      "attendance tracking",
+      "report generation"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.07620548592019591,
+      "duration": 0.03146187647202176,
+      "reliability": 0.8023942700314461,
+      "complexity": 0.08993836757633601
+    },
+    "budget": {
+      "cost": 299.8577313599835,
+      "duration": 166.79697133336143,
+      "complexity": 3
+    },
+    "request": "I need help with certificate issuance and attendance tracking and report generation for a level 2 education session."
+  },
+  {
+    "profile_id": "P0134",
+    "objectives": [
+      "smart lighting"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.11785647733075676,
+      "duration": 0.7292297573742941,
+      "reliability": 0.140339586600196,
+      "complexity": 0.012574178694753113
+    },
+    "budget": {
+      "cost": 272.51914632275583,
+      "duration": 119.71726968943328,
+      "complexity": 4
+    },
+    "request": "Please set up smart lighting suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0135",
+    "objectives": [
+      "vehicle sharing",
+      "traffic monitoring"
+    ],
+    "level": 1,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.03470164775429382,
+      "duration": 0.21942096228978167,
+      "reliability": 0.011614055168503879,
+      "complexity": 0.7342633347874206
+    },
+    "budget": {
+      "cost": 234.0846703917403,
+      "duration": 128.61137230857798,
+      "complexity": 2
+    },
+    "request": "I need help with vehicle sharing and traffic monitoring for a level 1 mobility session."
+  },
+  {
+    "profile_id": "P0136",
+    "objectives": [
+      "polling",
+      "fitness tracking",
+      "parking detection"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.22947513162788732,
+      "duration": 0.45464464994630716,
+      "reliability": 0.0742454255920298,
+      "complexity": 0.24163479283377565
+    },
+    "budget": {
+      "cost": 92.89086446907734,
+      "duration": 91.50328546737525,
+      "complexity": 2
+    },
+    "request": "We would like polling and fitness tracking and parking detection configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0137",
+    "objectives": [
+      "fall detection",
+      "e-ticketing"
+    ],
+    "level": 1,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.32451868793147454,
+      "duration": 0.1564836928377257,
+      "reliability": 0.03676868355160319,
+      "complexity": 0.48222893567919667
+    },
+    "budget": {
+      "cost": 293.1275798447119,
+      "duration": 32.55240705173132,
+      "complexity": 2
+    },
+    "request": "We would like fall detection and e-ticketing configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0138",
+    "objectives": [
+      "note synchronisation",
+      "video conferencing"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.07818262030817028,
+      "duration": 0.23767702308740077,
+      "reliability": 0.32607578070227633,
+      "complexity": 0.35806457590215257
+    },
+    "budget": {
+      "cost": 148.0968547906921,
+      "duration": 137.25311897604803,
+      "complexity": 3
+    },
+    "request": "Please set up note synchronisation and video conferencing suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0139",
+    "objectives": [
+      "fitness tracking",
+      "voice assistance"
+    ],
+    "level": 3,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.4130018898049019,
+      "duration": 0.1485407833165193,
+      "reliability": 0.34182537957675485,
+      "complexity": 0.0966319473018239
+    },
+    "budget": {
+      "cost": 160.05615527059445,
+      "duration": 73.98919684686933,
+      "complexity": 4
+    },
+    "request": "Please set up fitness tracking and voice assistance suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0140",
+    "objectives": [
+      "appliance control",
+      "air quality sensing",
+      "payment processing"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.5453259440980598,
+      "duration": 0.013526453106431585,
+      "reliability": 0.09324089737192963,
+      "complexity": 0.347906705423579
+    },
+    "budget": {
+      "cost": 289.9427183429665,
+      "duration": 50.793553107165366,
+      "complexity": 4
+    },
+    "request": "Can you arrange appliance control and air quality sensing and payment processing? This is for a living context, level 3."
+  },
+  {
+    "profile_id": "P0141",
+    "objectives": [
+      "anomaly detection"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.04802744769200624,
+      "duration": 0.45514738378684705,
+      "reliability": 0.35208045436517443,
+      "complexity": 0.1447447141559722
+    },
+    "budget": {
+      "cost": 227.01191267641366,
+      "duration": 69.61695474287488,
+      "complexity": 4
+    },
+    "request": "Can you arrange anomaly detection? This is for a living context, level 3."
+  },
+  {
+    "profile_id": "P0142",
+    "objectives": [
+      "irrigation control",
+      "accessibility adaptation"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.025157624013407574,
+      "duration": 0.2613323753366813,
+      "reliability": 0.19026000187303496,
+      "complexity": 0.5232499987768762
+    },
+    "budget": {
+      "cost": 130.35790397762258,
+      "duration": 128.7259508348571,
+      "complexity": 3
+    },
+    "request": "I need help with irrigation control and accessibility adaptation for a level 2 living session."
+  },
+  {
+    "profile_id": "P0143",
+    "objectives": [
+      "ambient sensing",
+      "accessibility adaptation"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.13127900744815985,
+      "duration": 0.7305262806656263,
+      "reliability": 0.03518957396893271,
+      "complexity": 0.10300513791728111
+    },
+    "budget": {
+      "cost": 166.0325768351091,
+      "duration": 141.80698945353845,
+      "complexity": 4
+    },
+    "request": "Can you arrange ambient sensing and accessibility adaptation? This is for a education context, level 3."
+  },
+  {
+    "profile_id": "P0144",
+    "objectives": [
+      "live captioning",
+      "smart lighting"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.27280218062471195,
+      "duration": 0.44574522576876435,
+      "reliability": 0.2712020062378959,
+      "complexity": 0.01025058736862774
+    },
+    "budget": {
+      "cost": 242.960096817686,
+      "duration": 69.20442003407527,
+      "complexity": 2
+    },
+    "request": "Can you arrange live captioning and smart lighting? This is for a education context, level 1."
+  },
+  {
+    "profile_id": "P0145",
+    "objectives": [
+      "entertainment streaming",
+      "parking detection"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.1818932370660763,
+      "duration": 0.22801816748457276,
+      "reliability": 0.47798866752465996,
+      "complexity": 0.11209992792469115
+    },
+    "budget": {
+      "cost": 219.56387584313106,
+      "duration": 87.61152383502353,
+      "complexity": 3
+    },
+    "request": "Please set up entertainment streaming and parking detection suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0146",
+    "objectives": [
+      "parking detection"
+    ],
+    "level": 1,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.5280683994396156,
+      "duration": 0.29484610424360214,
+      "reliability": 0.17549244681493856,
+      "complexity": 0.0015930495018437844
+    },
+    "budget": {
+      "cost": 174.69660560959557,
+      "duration": 62.99519174639263,
+      "complexity": 2
+    },
+    "request": "Please set up parking detection suited to a level 1 audience."
+  },
+  {
+    "profile_id": "P0147",
+    "objectives": [
+      "occupancy detection"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.15541834220486744,
+      "duration": 0.3922771578731409,
+      "reliability": 0.37633860694473964,
+      "complexity": 0.07596589297725215
+    },
+    "budget": {
+      "cost": 205.0669485769639,
+      "duration": 49.055467273323714,
+      "complexity": 2
+    },
+    "request": "I need help with occupancy detection for a level 1 living session."
+  },
+  {
+    "profile_id": "P0148",
+    "objectives": [
+      "access control"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.5678440557534878,
+      "duration": 0.15703608656094206,
+      "reliability": 0.18045661733144863,
+      "complexity": 0.0946632403541216
+    },
+    "budget": {
+      "cost": 118.81976697863327,
+      "duration": 136.99506126183238,
+      "complexity": 2
+    },
+    "request": "I need help with access control for a level 1 living session."
+  },
+  {
+    "profile_id": "P0149",
+    "objectives": [
+      "pet monitoring",
+      "report generation"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.09533727769897837,
+      "duration": 0.21219416818274087,
+      "reliability": 0.40720507720177046,
+      "complexity": 0.28526347691651033
+    },
+    "budget": {
+      "cost": 255.42757681587156,
+      "duration": 141.96326376051613,
+      "complexity": 4
+    },
+    "request": "We would like pet monitoring and report generation configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0150",
+    "objectives": [
+      "concept mapping",
+      "device provisioning",
+      "lecture recording"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.20278707698709378,
+      "duration": 0.3378953168244677,
+      "reliability": 0.364567911225438,
+      "complexity": 0.09474969496300044
+    },
+    "budget": {
+      "cost": 211.18305019009392,
+      "duration": 63.185863327663036,
+      "complexity": 2
+    },
+    "request": "We would like concept mapping and device provisioning and lecture recording configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0151",
+    "objectives": [
+      "smart lighting",
+      "ride matching"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.33363458164734733,
+      "duration": 0.15838012480567287,
+      "reliability": 0.01867700576998902,
+      "complexity": 0.48930828777699076
+    },
+    "budget": {
+      "cost": 160.89255808719355,
+      "duration": 149.65978044099342,
+      "complexity": 2
+    },
+    "request": "We would like smart lighting and ride matching configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0152",
+    "objectives": [
+      "discussion moderation"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.02979004371726918,
+      "duration": 0.7564692879458778,
+      "reliability": 0.05122007252122499,
+      "complexity": 0.16252059581562814
+    },
+    "budget": {
+      "cost": 236.26072709897815,
+      "duration": 58.37784149825643,
+      "complexity": 2
+    },
+    "request": "Can you arrange discussion moderation? This is for a education context, level 1."
+  },
+  {
+    "profile_id": "P0153",
+    "objectives": [
+      "lecture recording",
+      "ambient regulation"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.19936536773321276,
+      "duration": 0.4218989787128156,
+      "reliability": 0.11784714507627816,
+      "complexity": 0.26088850847769346
+    },
+    "budget": {
+      "cost": 211.8609585625992,
+      "duration": 58.05778972831405,
+      "complexity": 4
+    },
+    "request": "I need help with lecture recording and ambient regulation for a level 3 education session."
+  },
+  {
+    "profile_id": "P0154",
+    "objectives": [
+      "fleet tracking",
+      "notification dispatch",
+      "identity verification"
+    ],
+    "level": 2,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.4591896537056194,
+      "duration": 0.19274744677071037,
+      "reliability": 0.25194403453586445,
+      "complexity": 0.0961188649878058
+    },
+    "budget": {
+      "cost": 134.460954628023,
+      "duration": 79.02591080767499,
+      "complexity": 3
+    },
+    "request": "Can you arrange fleet tracking and notification dispatch and identity verification? This is for a mobility context, level 2."
+  },
+  {
+    "profile_id": "P0155",
+    "objectives": [
+      "occupancy detection",
+      "screen sharing",
+      "pet monitoring"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.2711508004616236,
+      "duration": 0.0915867154822872,
+      "reliability": 0.13760810287930192,
+      "complexity": 0.4996543811767873
+    },
+    "budget": {
+      "cost": 104.45633673799266,
+      "duration": 106.18431430796959,
+      "complexity": 4
+    },
+    "request": "Please set up occupancy detection and screen sharing and pet monitoring suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0156",
+    "objectives": [
+      "broadcasting",
+      "ambient regulation"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.032465681798897306,
+      "duration": 0.040850989073699114,
+      "reliability": 0.49245676549866024,
+      "complexity": 0.4342265636287433
+    },
+    "budget": {
+      "cost": 249.40267175699293,
+      "duration": 96.15684661956708,
+      "complexity": 2
+    },
+    "request": "We would like broadcasting and ambient regulation configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0157",
+    "objectives": [
+      "certificate issuance",
+      "leak detection"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.21888629193130188,
+      "duration": 0.11975397002368854,
+      "reliability": 0.5094304213679879,
+      "complexity": 0.15192931667702153
+    },
+    "budget": {
+      "cost": 107.21715368535871,
+      "duration": 170.9650676736965,
+      "complexity": 4
+    },
+    "request": "I need help with certificate issuance and leak detection for a level 3 education session."
+  },
+  {
+    "profile_id": "P0158",
+    "objectives": [
+      "lecture recording",
+      "quizzing"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.47301563375406097,
+      "duration": 0.27339342119818333,
+      "reliability": 0.0678949944237627,
+      "complexity": 0.18569595062399294
+    },
+    "budget": {
+      "cost": 75.91883820566895,
+      "duration": 82.37128728194948,
+      "complexity": 4
+    },
+    "request": "We would like lecture recording and quizzing configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0159",
+    "objectives": [
+      "leak detection",
+      "firmware updating",
+      "lecture recording"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.13005689976943377,
+      "duration": 0.2167611985008953,
+      "reliability": 0.617795111640849,
+      "complexity": 0.03538679008882186
+    },
+    "budget": {
+      "cost": 59.80064474717651,
+      "duration": 171.5680752712695,
+      "complexity": 3
+    },
+    "request": "We would like leak detection and firmware updating and lecture recording configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0160",
+    "objectives": [
+      "parking detection",
+      "exam proctoring",
+      "plagiarism checking"
+    ],
+    "level": 3,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.6768761454415941,
+      "duration": 0.0076508526610004806,
+      "reliability": 0.2821906676039927,
+      "complexity": 0.033282334293412645
+    },
+    "budget": {
+      "cost": 245.13949760274278,
+      "duration": 103.29086591533265,
+      "complexity": 4
+    },
+    "request": "Can you arrange parking detection and exam proctoring and plagiarism checking? This is for a mobility context, level 3."
+  },
+  {
+    "profile_id": "P0161",
+    "objectives": [
+      "voice assistance",
+      "broadcasting",
+      "vital sign monitoring"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.25695106885528946,
+      "duration": 0.05619259001225803,
+      "reliability": 0.5697572016251619,
+      "complexity": 0.11709913950729069
+    },
+    "budget": {
+      "cost": 75.59973620852601,
+      "duration": 59.27633090285668,
+      "complexity": 2
+    },
+    "request": "We would like voice assistance and broadcasting and vital sign monitoring configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0162",
+    "objectives": [
+      "live captioning",
+      "appliance control"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.5912919801868791,
+      "duration": 0.11267538339473349,
+      "reliability": 0.11314806878044066,
+      "complexity": 0.18288456763794678
+    },
+    "budget": {
+      "cost": 160.1703734902814,
+      "duration": 74.01111201524915,
+      "complexity": 3
+    },
+    "request": "Can you arrange live captioning and appliance control? This is for a education context, level 2."
+  },
+  {
+    "profile_id": "P0163",
+    "objectives": [
+      "energy monitoring"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.008900866446356806,
+      "duration": 0.06390078998327463,
+      "reliability": 0.1483694171773685,
+      "complexity": 0.778828926393
+    },
+    "budget": {
+      "cost": 211.4821040730432,
+      "duration": 138.7478352236792,
+      "complexity": 2
+    },
+    "request": "We would like energy monitoring configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0164",
+    "objectives": [
+      "note synchronisation",
+      "peer grouping",
+      "attendance tracking"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.2792022766342096,
+      "duration": 0.5697982270984139,
+      "reliability": 0.04278708312326552,
+      "complexity": 0.10821241314411086
+    },
+    "budget": {
+      "cost": 250.75681242198374,
+      "duration": 168.65101151633502,
+      "complexity": 4
+    },
+    "request": "Please set up note synchronisation and peer grouping and attendance tracking suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0165",
+    "objectives": [
+      "leak detection",
+      "health record sync"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.3244717753058988,
+      "duration": 0.1465566243512547,
+      "reliability": 0.13292261564518734,
+      "complexity": 0.3960489846976591
+    },
+    "budget": {
+      "cost": 50.697626318052286,
+      "duration": 50.62062711951971,
+      "complexity": 4
+    },
+    "request": "Please set up leak detection and health record sync suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0166",
+    "objectives": [
+      "weather forecasting",
+      "air quality sensing"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.023994890935109488,
+      "duration": 0.05746314029110163,
+      "reliability": 0.2536351246588403,
+      "complexity": 0.6649068441149486
+    },
+    "budget": {
+      "cost": 66.6676817180276,
+      "duration": 90.21599991479891,
+      "complexity": 3
+    },
+    "request": "We would like weather forecasting and air quality sensing configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0167",
+    "objectives": [
+      "telepresence"
+    ],
+    "level": 1,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.24719515108699164,
+      "duration": 0.01059946862463541,
+      "reliability": 0.5247868215051119,
+      "complexity": 0.21741855878326105
+    },
+    "budget": {
+      "cost": 229.3358682293647,
+      "duration": 110.22410115161891,
+      "complexity": 2
+    },
+    "request": "Can you arrange telepresence? This is for a healthcare context, level 1."
+  },
+  {
+    "profile_id": "P0168",
+    "objectives": [
+      "ambient sensing"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.03630213827186873,
+      "duration": 0.41018671235530924,
+      "reliability": 0.07261684587672229,
+      "complexity": 0.4808943034960998
+    },
+    "budget": {
+      "cost": 130.42438476767805,
+      "duration": 84.38297564412488,
+      "complexity": 4
+    },
+    "request": "I need help with ambient sensing for a level 3 education session."
+  },
+  {
+    "profile_id": "P0169",
+    "objectives": [
+      "smart lighting",
+      "payment processing"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.24117847318016483,
+      "duration": 0.28115404351050005,
+      "reliability": 0.3226144915335219,
+      "complexity": 0.15505299177581322
+    },
+    "budget": {
+      "cost": 185.58004712823944,
+      "duration": 63.23451739999283,
+      "complexity": 2
+    },
+    "request": "I need help with smart lighting and payment processing for a level 1 living session."
+  },
+  {
+    "profile_id": "P0170",
+    "objectives": [
+      "notification dispatch",
+      "weather forecasting",
+      "entertainment streaming"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.2547202988580633,
+      "duration": 0.02260311141500828,
+      "reliability": 0.26603533309185884,
+      "complexity": 0.4566412566350697
+    },
+    "budget": {
+      "cost": 249.59047686958942,
+      "duration": 159.3751543256766,
+      "complexity": 4
+    },
+    "request": "I need help with notification dispatch and weather forecasting and entertainment streaming for a level 3 living session."
+  },
+  {
+    "profile_id": "P0171",
+    "objectives": [
+      "ride matching",
+      "weather forecasting",
+      "package detection"
+    ],
+    "level": 3,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.20546181603468716,
+      "duration": 0.061660448860774,
+      "reliability": 0.5018065282432348,
+      "complexity": 0.23107120686130414
+    },
+    "budget": {
+      "cost": 85.29182741493081,
+      "duration": 54.6640201730869,
+      "complexity": 4
+    },
+    "request": "Please set up ride matching and weather forecasting and package detection suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0172",
+    "objectives": [
+      "fleet tracking",
+      "smart locking"
+    ],
+    "level": 2,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.17027164829929065,
+      "duration": 0.17275057331356897,
+      "reliability": 0.07954462864167845,
+      "complexity": 0.577433149745462
+    },
+    "budget": {
+      "cost": 50.670826648522386,
+      "duration": 154.94328483336452,
+      "complexity": 3
+    },
+    "request": "We would like fleet tracking and smart locking configured for level 2 learners."
+  },
+  {
+    "profile_id": "P0173",
+    "objectives": [
+      "gradebook synchronisation",
+      "accessibility adaptation"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.311083320164961,
+      "duration": 0.207273088025038,
+      "reliability": 0.012490096071254762,
+      "complexity": 0.4691534957387464
+    },
+    "budget": {
+      "cost": 274.11731823163666,
+      "duration": 158.23141791467387,
+      "complexity": 3
+    },
+    "request": "Please set up gradebook synchronisation and accessibility adaptation suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0174",
+    "objectives": [
+      "emergency alerting"
+    ],
+    "level": 2,
+    "domain": "healthcare",
+    "preferences": {
+      "cost": 0.3160357460984252,
+      "duration": 0.11592034891056754,
+      "reliability": 0.197653584309451,
+      "complexity": 0.3703903206815562
+    },
+    "budget": {
+      "cost": 144.8233810283325,
+      "duration": 79.66869368545485,
+      "complexity": 3
+    },
+    "request": "Can you arrange emergency alerting? This is for a healthcare context, level 2."
+  },
+  {
+    "profile_id": "P0175",
+    "objectives": [
+      "video conferencing",
+      "acoustics"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.2519536248753622,
+      "duration": 0.503454347199847,
+      "reliability": 0.05829841682792892,
+      "complexity": 0.18629361109686163
+    },
+    "budget": {
+      "cost": 204.75774324472334,
+      "duration": 104.59960426457972,
+      "complexity": 4
+    },
+    "request": "Please set up video conferencing and acoustics suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0176",
+    "objectives": [
+      "plagiarism checking",
+      "screen sharing",
+      "identity verification"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.22460254114111064,
+      "duration": 0.24571777038343187,
+      "reliability": 0.08808571715462847,
+      "complexity": 0.441593971320829
+    },
+    "budget": {
+      "cost": 217.253807493763,
+      "duration": 138.16940156813175,
+      "complexity": 3
+    },
+    "request": "Please set up plagiarism checking and screen sharing and identity verification suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0177",
+    "objectives": [
+      "traffic monitoring",
+      "screen sharing",
+      "telepresence"
+    ],
+    "level": 2,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.08127753117686316,
+      "duration": 0.07020106033068037,
+      "reliability": 0.004395088913612577,
+      "complexity": 0.8441263195788438
+    },
+    "budget": {
+      "cost": 237.02566841948533,
+      "duration": 146.33243208759546,
+      "complexity": 3
+    },
+    "request": "Please set up traffic monitoring and screen sharing and telepresence suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0178",
+    "objectives": [
+      "lecture recording",
+      "ambient regulation"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.0649512547952851,
+      "duration": 0.6065713148478578,
+      "reliability": 0.21262468359880538,
+      "complexity": 0.1158527467580519
+    },
+    "budget": {
+      "cost": 93.0412964401753,
+      "duration": 110.83078398117553,
+      "complexity": 2
+    },
+    "request": "We would like lecture recording and ambient regulation configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0179",
+    "objectives": [
+      "exam proctoring",
+      "study reminder",
+      "route planning"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.0712199346812781,
+      "duration": 0.32732415930106057,
+      "reliability": 0.1364736208694794,
+      "complexity": 0.464982285148182
+    },
+    "budget": {
+      "cost": 67.11251979311557,
+      "duration": 171.922550221103,
+      "complexity": 4
+    },
+    "request": "Can you arrange exam proctoring and study reminder and route planning? This is for a education context, level 3."
+  },
+  {
+    "profile_id": "P0180",
+    "objectives": [
+      "video conferencing",
+      "appointment scheduling"
+    ],
+    "level": 2,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.3869195745416875,
+      "duration": 0.2900256155514925,
+      "reliability": 0.24922113871034918,
+      "complexity": 0.07383367119647091
+    },
+    "budget": {
+      "cost": 140.89698243995528,
+      "duration": 147.13872303101783,
+      "complexity": 3
+    },
+    "request": "Please set up video conferencing and appointment scheduling suited to a level 2 audience."
+  },
+  {
+    "profile_id": "P0181",
+    "objectives": [
+      "whiteboarding",
+      "appliance control",
+      "appointment scheduling"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.0032339629658284827,
+      "duration": 0.4566037233573117,
+      "reliability": 0.2171173945638299,
+      "complexity": 0.32304491911302996
+    },
+    "budget": {
+      "cost": 139.54994215566524,
+      "duration": 38.01100969921189,
+      "complexity": 2
+    },
+    "request": "I need help with whiteboarding and appliance control and appointment scheduling for a level 1 education session."
+  },
+  {
+    "profile_id": "P0182",
+    "objectives": [
+      "language translation",
+      "log auditing",
+      "bandwidth shaping"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.02942622844534582,
+      "duration": 0.05734572593262959,
+      "reliability": 0.24454842604244972,
+      "complexity": 0.6686796195795749
+    },
+    "budget": {
+      "cost": 239.92450439895396,
+      "duration": 131.28779336936537,
+      "complexity": 2
+    },
+    "request": "Please set up language translation and log auditing and bandwidth shaping suited to a level 1 audience."
+  },
+  {
+    "profile_id": "P0183",
+    "objectives": [
+      "quizzing"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.24914410016332528,
+      "duration": 0.09328544425360087,
+      "reliability": 0.3425035071858941,
+      "complexity": 0.3150669483971797
+    },
+    "budget": {
+      "cost": 260.1797857646999,
+      "duration": 33.532046372656026,
+      "complexity": 4
+    },
+    "request": "I need help with quizzing for a level 3 education session."
+  },
+  {
+    "profile_id": "P0184",
+    "objectives": [
+      "language translation",
+      "payment processing",
+      "concept mapping"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.1150777706137277,
+      "duration": 0.37579842405079683,
+      "reliability": 0.2956488906735816,
+      "complexity": 0.21347491466189375
+    },
+    "budget": {
+      "cost": 259.92370489117513,
+      "duration": 59.46844480456028,
+      "complexity": 4
+    },
+    "request": "I need help with language translation and payment processing and concept mapping for a level 3 education session."
+  },
+  {
+    "profile_id": "P0185",
+    "objectives": [
+      "parking detection",
+      "flashcard generation",
+      "identity verification"
+    ],
+    "level": 2,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.407538111244742,
+      "duration": 0.49530553056948984,
+      "reliability": 0.08140793511460306,
+      "complexity": 0.0157484230711651
+    },
+    "budget": {
+      "cost": 196.5353150466947,
+      "duration": 104.85315339779437,
+      "complexity": 3
+    },
+    "request": "I need help with parking detection and flashcard generation and identity verification for a level 2 mobility session."
+  },
+  {
+    "profile_id": "P0186",
+    "objectives": [
+      "package detection",
+      "live captioning"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.0908871832531244,
+      "duration": 0.09797909083367419,
+      "reliability": 0.5775313270140368,
+      "complexity": 0.2336023988991647
+    },
+    "budget": {
+      "cost": 90.22606012288493,
+      "duration": 74.29657910232658,
+      "complexity": 4
+    },
+    "request": "Please set up package detection and live captioning suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0187",
+    "objectives": [
+      "live captioning",
+      "firmware updating",
+      "language translation"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.137050877039873,
+      "duration": 0.13581834982556953,
+      "reliability": 0.5558583955563126,
+      "complexity": 0.17127237757824507
+    },
+    "budget": {
+      "cost": 143.3457555801745,
+      "duration": 105.30318981219139,
+      "complexity": 2
+    },
+    "request": "I need help with live captioning and firmware updating and language translation for a level 1 education session."
+  },
+  {
+    "profile_id": "P0188",
+    "objectives": [
+      "route planning",
+      "report generation",
+      "parking detection"
+    ],
+    "level": 3,
+    "domain": "mobility",
+    "preferences": {
+      "cost": 0.25903009982249003,
+      "duration": 0.05542424719274961,
+      "reliability": 0.23980204603701055,
+      "complexity": 0.4457436069477499
+    },
+    "budget": {
+      "cost": 67.16493403969963,
+      "duration": 60.74209418990642,
+      "complexity": 4
+    },
+    "request": "Please set up route planning and report generation and parking detection suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0189",
+    "objectives": [
+      "bandwidth shaping",
+      "health record sync",
+      "telepresence"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.20030722921550928,
+      "duration": 0.6434994992502794,
+      "reliability": 0.05067651963833991,
+      "complexity": 0.10551675189587147
+    },
+    "budget": {
+      "cost": 271.3935560827828,
+      "duration": 171.7491014884605,
+      "complexity": 2
+    },
+    "request": "We would like bandwidth shaping and health record sync and telepresence configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0190",
+    "objectives": [
+      "device provisioning"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.16482778659885447,
+      "duration": 0.05363331747003899,
+      "reliability": 0.013906658275362326,
+      "complexity": 0.7676322376557442
+    },
+    "budget": {
+      "cost": 52.04686081681737,
+      "duration": 78.82208943313293,
+      "complexity": 4
+    },
+    "request": "We would like device provisioning configured for level 3 learners."
+  },
+  {
+    "profile_id": "P0191",
+    "objectives": [
+      "assignment collection"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.6929141038130295,
+      "duration": 0.049344009340866475,
+      "reliability": 0.19099835613629518,
+      "complexity": 0.06674353070980873
+    },
+    "budget": {
+      "cost": 142.50018286772666,
+      "duration": 156.23461113519141,
+      "complexity": 3
+    },
+    "request": "I need help with assignment collection for a level 2 education session."
+  },
+  {
+    "profile_id": "P0192",
+    "objectives": [
+      "firmware updating",
+      "file storage"
+    ],
+    "level": 1,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.07794839133906381,
+      "duration": 0.08667310996094936,
+      "reliability": 0.05403131649410603,
+      "complexity": 0.7813471822058808
+    },
+    "budget": {
+      "cost": 285.7166133432876,
+      "duration": 82.09258677792624,
+      "complexity": 2
+    },
+    "request": "We would like firmware updating and file storage configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0193",
+    "objectives": [
+      "backup scheduling",
+      "assignment collection",
+      "ambient sensing"
+    ],
+    "level": 3,
+    "domain": "living",
+    "preferences": {
+      "cost": 0.1633880734191712,
+      "duration": 0.24712119312847342,
+      "reliability": 0.4387524541893973,
+      "complexity": 0.1507382792629582
+    },
+    "budget": {
+      "cost": 99.06450305141135,
+      "duration": 36.48137608025377,
+      "complexity": 4
+    },
+    "request": "I need help with backup scheduling and assignment collection and ambient sensing for a level 3 living session."
+  },
+  {
+    "profile_id": "P0194",
+    "objectives": [
+      "certificate issuance"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.021587315117441642,
+      "duration": 0.3246252965867669,
+      "reliability": 0.6498217863987585,
+      "complexity": 0.003965601897032852
+    },
+    "budget": {
+      "cost": 123.76578973375115,
+      "duration": 153.17761293333834,
+      "complexity": 2
+    },
+    "request": "We would like certificate issuance configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0195",
+    "objectives": [
+      "ambient regulation",
+      "access control"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.01376698178122672,
+      "duration": 0.3287282726118025,
+      "reliability": 0.3800429503315078,
+      "complexity": 0.2774617952754631
+    },
+    "budget": {
+      "cost": 126.71008680225233,
+      "duration": 87.62319160482626,
+      "complexity": 2
+    },
+    "request": "We would like ambient regulation and access control configured for level 1 learners."
+  },
+  {
+    "profile_id": "P0196",
+    "objectives": [
+      "live captioning"
+    ],
+    "level": 3,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.04302482398912422,
+      "duration": 0.7775739071355888,
+      "reliability": 0.06626725630480772,
+      "complexity": 0.11313401257047934
+    },
+    "budget": {
+      "cost": 223.3044906566388,
+      "duration": 103.54132658022492,
+      "complexity": 4
+    },
+    "request": "Please set up live captioning suited to a level 3 audience."
+  },
+  {
+    "profile_id": "P0197",
+    "objectives": [
+      "accessibility adaptation"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.26848326662232147,
+      "duration": 0.2931274821193692,
+      "reliability": 0.2221030407846731,
+      "complexity": 0.2162862104736363
+    },
+    "budget": {
+      "cost": 124.39846769600805,
+      "duration": 151.34100488216697,
+      "complexity": 2
+    },
+    "request": "Please set up accessibility adaptation suited to a level 1 audience."
+  },
+  {
+    "profile_id": "P0198",
+    "objectives": [
+      "note synchronisation"
+    ],
+    "level": 1,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.06608179690660407,
+      "duration": 0.3140903831973487,
+      "reliability": 0.24634293693060888,
+      "complexity": 0.37348488296543825
+    },
+    "budget": {
+      "cost": 294.3027680912887,
+      "duration": 71.75300020928478,
+      "complexity": 2
+    },
+    "request": "Can you arrange note synchronisation? This is for a education context, level 1."
+  },
+  {
+    "profile_id": "P0199",
+    "objectives": [
+      "gradebook synchronisation",
+      "irrigation control",
+      "lecture recording"
+    ],
+    "level": 2,
+    "domain": "education",
+    "preferences": {
+      "cost": 0.15105045138197745,
+      "duration": 0.12808821005807638,
+      "reliability": 0.017487136922690296,
+      "complexity": 0.703374201637256
+    },
+    "budget": {
+      "cost": 111.80836466330584,
+      "duration": 73.8300324330711,
+      "complexity": 3
+    },
+    "request": "Please set up gradebook synchronisation and irrigation control and lecture recording suited to a level 2 audience."
+  }
+]

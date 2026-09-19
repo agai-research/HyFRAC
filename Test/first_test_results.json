@@ -1,0 +1,59 @@
+[
+  {
+    "query": "I need to stream my slides and run a quick quiz for a beginner class.",
+    "result": {
+      "status": "delivered",
+      "message": null,
+      "confidence": 0.7598189624478066,
+      "services": [
+        "LS",
+        "QG"
+      ],
+      "fragments_used": [
+        "phi_e3"
+      ],
+      "quality": {
+        "cost": 30,
+        "duration": 45,
+        "reliability": 0.874,
+        "complexity": 2
+      },
+      "explanation": "The delivered application uses 2 service(s): LS, QG.\n- plan: drafted an application with 0 service(s)\n- plan: drafted an application with 2 service(s)\n- critique: no violation found\n- select: selected the Pareto-optimal application, confidence=0.76",
+      "relaxation_rounds": 0,
+      "flagged_hyperedges": []
+    }
+  },
+  {
+    "query": "Please regulate the classroom climate and lighting automatically.",
+    "result": {
+      "status": "delivered",
+      "message": null,
+      "confidence": 0.7694338454850763,
+      "services": [
+        "CC",
+        "RM",
+        "SL"
+      ],
+      "fragments_used": [
+        "phi_e4"
+      ],
+      "quality": {
+        "cost": 19,
+        "duration": 20,
+        "reliability": 0.81189,
+        "complexity": 1
+      },
+      "explanation": "The delivered application uses 3 service(s): CC, RM, SL.\n- plan: drafted an application with 0 service(s)\n- plan: drafted an application with 3 service(s)\n- critique: no violation found\n- select: selected the Pareto-optimal application, confidence=0.77",
+      "relaxation_rounds": 0,
+      "flagged_hyperedges": []
+    }
+  },
+  {
+    "query": "Set up a collaborative whiteboard session with noise monitoring for an advanced audio project.",
+    "result": {
+      "status": "clarification",
+      "message": "no combination satisfied C2/C3/C6 within the repair budget",
+      "confidence": 0.0
+    }
+  }
+]

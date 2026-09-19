@@ -1,0 +1,7 @@
+{
+  "prerequisites": {
+    "ambient regulation": ["ambient sensing"]
+  },
+  "alternatives": {},
+  "predicates": {}
+}
